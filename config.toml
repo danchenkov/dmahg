@@ -1,6 +1,7 @@
 baseURL = "https://danchenkov.live/"
 languageCode = "ru-ru"
 title = "Данченков Михаил Алексеевич"
+theme = ["hugo-search-fuse-js", "basic"]
 description = "Данченков Михаил Алексеевич (2.1.1950-)"
 googleAnalytics = "UA-157724393-1"
 disableKinds = ["taxonomy", "taxonomyTerm"]
