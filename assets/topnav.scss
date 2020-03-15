@@ -1,0 +1,10 @@
+.navbar-brand {
+	display: flex;
+	>span {
+		display: inline-block;
+		&:last-of-type {
+			padding-left: 0.5em;
+			align-self: center;
+		}
+	}
+}
