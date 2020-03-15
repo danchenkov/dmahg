@@ -1,0 +1,13 @@
+{
+	"folders":
+	[
+		{
+			"folder_exclude_patterns": [".svn", ".git", ".hg", "pkg"],
+			"file_exclude_patterns": ["*.exe", "*.dll", "*.obj","*.o", "*.a", "*.lib", "*.so", "*.dylib", "*.ncb", "*.sdf", "*.suo", "*.pdb", "*.idb", ".DS_Store", "*.class", "*.psd", "*.db", "*.svg", "*.woff", "*.woff2", "*.ttf", "*.eot", "*.otf", "*.sublime-*", "*.log", "*.cache"],
+			"binary_file_patterns": ["*.tbz2", "*.gzip", "*.jpg", "*.jpeg", "*.png", "*.gif", "*.ttf", "*.tga", "*.dds", "*.ico", "*.eot", "*.pdf", "*.swf", "*.jar", "*.zip"],
+			"translate_tabs_to_spaces": false,
+			"tab_size": 2,
+			"path": "."
+		}
+	],
+}

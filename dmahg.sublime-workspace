@@ -1,0 +1,2121 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"oca",
+				"oca_url"
+			],
+			[
+				"pt_",
+				"pt_PT"
+			],
+			[
+				"С",
+				"Саентологическая"
+			],
+			[
+				"es",
+				"established"
+			],
+			[
+				"new",
+				"newurl"
+			],
+			[
+				"vm-open",
+				"vm-open-house"
+			],
+			[
+				"Has",
+				"hasClass"
+			],
+			[
+				"flex",
+				"flex-wrap\tproperty"
+			],
+			[
+				"mel",
+				"Melbourne"
+			],
+			[
+				"business",
+				"business-woman"
+			],
+			[
+				"mot",
+				"motorcycle"
+			],
+			[
+				"nut",
+				"nutrition"
+			],
+			[
+				"illu",
+				"book-illustrations"
+			],
+			[
+				"marke",
+				"marketer"
+			],
+			[
+				"web",
+				"web-developer"
+			],
+			[
+				"gra",
+				"grandfather"
+			],
+			[
+				"aud",
+				"audio-visual-producer"
+			],
+			[
+				"ve",
+				"veterinarian"
+			],
+			[
+				"SlideSet",
+				"SlideSetRef"
+			],
+			[
+				"tr",
+				"transition\tproperty"
+			],
+			[
+				"Raw",
+				"RawQuery\tstring ·ν"
+			],
+			[
+				"space",
+				"space-between\tjustify-content"
+			],
+			[
+				"text",
+				"text-transform\tproperty"
+			],
+			[
+				"scientology-net",
+				"scientology-network-launch-location"
+			],
+			[
+				"Lo",
+				"Longitude\tfloat64 ·ν"
+			],
+			[
+				"C",
+				"Csiorgstatus\tstring ·ν"
+			],
+			[
+				"lrh",
+				"lrh2018-caption-27"
+			],
+			[
+				"align-",
+				"align-items\tproperty"
+			],
+			[
+				"font",
+				"font-family\tproperty"
+			],
+			[
+				"CurrentO",
+				"CurrentOrgId"
+			],
+			[
+				"freewinds",
+				"freewinds_tour"
+			],
+			[
+				"Trim",
+				"TrimSpace\tstring ƒ"
+			],
+			[
+				"OG",
+				"OGImage\tstring ν"
+			],
+			[
+				"image",
+				"imagecache"
+			],
+			[
+				"personal",
+				"personal-story"
+			],
+			[
+				"mari",
+				"margin-bottom"
+			],
+			[
+				"L",
+				"Locale\tstring ν"
+			],
+			[
+				"O",
+				"OGImage\tstring ν"
+			],
+			[
+				"Print",
+				"Printf\t ƒ"
+			],
+			[
+				"P",
+				"PathMatches\tbool ƒ"
+			],
+			[
+				"po",
+				"pointer-events"
+			],
+			[
+				"Org",
+				"OrgList\tstruct ʈ"
+			],
+			[
+				"fi",
+				"firstImage"
+			],
+			[
+				"title",
+				"titleOverride"
+			],
+			[
+				"Cu",
+				"CurrentOrgId"
+			],
+			[
+				"ди",
+				"директор"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"exter",
+				"external-links"
+			],
+			[
+				"selector",
+				"selector-wrapper"
+			],
+			[
+				"a",
+				"aUrl\tstring ν"
+			],
+			[
+				"Tr",
+				"TrimPrefix\tstring ƒ"
+			],
+			[
+				"scientology",
+				"scientology-today"
+			],
+			[
+				"tra",
+				"transition"
+			],
+			[
+				"Slide",
+				"SlideshowImage\tstring ν"
+			],
+			[
+				"De",
+				"DeployCtx\tstring ν"
+			],
+			[
+				"The",
+				"ThumbnailImage\tstring ν"
+			],
+			[
+				"Sli",
+				"SlideshowImage\tstring ν"
+			],
+			[
+				"Th",
+				"ThumbnailImage\tstring ν"
+			],
+			[
+				"Imag",
+				"Image800x450\tstring ν"
+			],
+			[
+				"Ima",
+				"Image300x200\tstring ν"
+			],
+			[
+				"current",
+				"currently"
+			],
+			[
+				"back",
+				"backSpace"
+			],
+			[
+				"is",
+				"isjQuery"
+			],
+			[
+				"String",
+				"toString"
+			],
+			[
+				"valid",
+				"validPosition"
+			],
+			[
+				"enc",
+				"enclosingDiv"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"medium-",
+				"medium-insert-images"
+			],
+			[
+				"shi",
+				"shiftKey"
+			],
+			[
+				"curre",
+				"currentElement"
+			],
+			[
+				"ele",
+				"elemEdited"
+			],
+			[
+				"k",
+				"key"
+			],
+			[
+				"editable_",
+				"editable_body"
+			],
+			[
+				"getC",
+				"getCaretPosition"
+			],
+			[
+				"vid",
+				"vid_fh"
+			],
+			[
+				"t",
+				"transition"
+			],
+			[
+				"org_id_",
+				"org_id_not_matches"
+			],
+			[
+				"paddi",
+				"padding-bottom"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"Prin",
+				"Printf\t ƒ"
+			],
+			[
+				"UR",
+				"RequestURI\tstring ν"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"Editable",
+				"EditableAttrsList\t[]*EditableAttrs ʈ"
+			],
+			[
+				"SITE",
+				"SITE_NAME\t Ɩ"
+			],
+			[
+				"OrgI",
+				"CurrentOrgId\tstring ƒ"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"ins",
+				"inside-our-church"
+			],
+			[
+				"lorem",
+				"lorem-ipsum"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"e",
+				"element"
+			],
+			[
+				"insi",
+				"inside-view-scientology-tells-atlanta"
+			],
+			[
+				"psychia",
+				"psychiatrist"
+			],
+			[
+				"Spli",
+				"SplitN\t[]string ƒ"
+			],
+			[
+				"U",
+				"URL\t*url.URL ν"
+			],
+			[
+				"in",
+				"initial"
+			],
+			[
+				"pr",
+				"proxy_password"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "config.toml",
+			"settings":
+			{
+				"buffer_size": 232,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "layouts/_default/single.html",
+			"settings":
+			{
+				"buffer_size": 177,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "layouts/partials/navbar.html",
+			"settings":
+			{
+				"buffer_size": 2968,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<nav class=\"navbar navbar-default navbar-sticky-top\" role=\"navigation\">\n  <div class=\"container\">\n\n    <div class=\"navbar-header\">\n      <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-collapse\">\n        <span class=\"icon-bar\"></span>\n        <span class=\"icon-bar\"></span>\n        <span class=\"icon-bar\"></span>\n      </button>\n      <a class=\"navbar-brand\" href=\"/\"><img width=\"80\" src=\"/images/lighthouse.svg\" /></a>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <span class=\"navbar-toggler-icon\"></span>\n        </button>\n    </div>\n    <div class=\"navbar-collapse collapse\">\n      <ul class=\"nav navbar-nav\">\n        <li><a href=\"#\">Home</a></li>\n\n      </ul>\n    </div>\n  </div>\n</nav>\n",
+			"settings":
+			{
+				"buffer_size": 905,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<nav class=\"navbar navbar-expand-lg navbar-light bg-light\">\n  <a class=\"navbar-brand\" href=\"#\">Navbar</a>\n  <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n    <span class=\"navbar-toggler-icon\"></span>\n  </button>\n\n  <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n    <ul class=\"navbar-nav mr-auto\">\n      <li class=\"nav-item active\">\n        <a class=\"nav-link\" href=\"#\">Home <span class=\"sr-only\">(current)</span></a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" href=\"#\">Link</a>\n      </li>\n      <li class=\"nav-item dropdown\">\n        <a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdown\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n          Dropdown\n        </a>\n        <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\n          <a class=\"dropdown-item\" href=\"#\">Action</a>\n          <a class=\"dropdown-item\" href=\"#\">Another action</a>\n          <div class=\"dropdown-divider\"></div>\n          <a class=\"dropdown-item\" href=\"#\">Something else here</a>\n        </div>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link disabled\" href=\"#\">Disabled</a>\n      </li>\n    </ul>\n    <form class=\"form-inline my-2 my-lg-0\">\n      <input class=\"form-control mr-sm-2\" type=\"search\" placeholder=\"Search\" aria-label=\"Search\">\n      <button class=\"btn btn-outline-success my-2 my-sm-0\" type=\"submit\">Search</button>\n    </form>\n  </div>\n</nav>",
+			"settings":
+			{
+				"buffer_size": 1608,
+				"line_ending": "Unix",
+				"name": "<nav class=\"navbar navbar-expand-lg navbar-light b"
+			}
+		},
+		{
+			"contents": "        <li class=\"dropdown menu-large\">\n          <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\"> Products <b class=\"caret\"></b> </a>\n          <ul class=\"dropdown-menu megamenu\">\n            <li class=\"row\">\n              <div class=\"col-sm-6 col-md-3\">\n                <a href=\"#\" class=\"thumbnail\">\n                  <img src=\"http://placehold.it/150x120\" />\n                </a>\n              </div>\n              <div class=\"col-sm-6 col-md-3\">\n                <a href=\"#\" class=\"thumbnail\">\n                  <img src=\"http://placehold.it/150x120\" />\n                </a>\n              </div>\n              <div class=\"col-sm-6 col-md-3\">\n                <a href=\"#\" class=\"thumbnail\">\n                  <img src=\"http://placehold.it/150x120\" />\n                </a>\n              </div>\n              <div class=\"col-sm-6 col-md-3\">\n                <a href=\"#\" class=\"thumbnail\">\n                  <img src=\"http://placehold.it/150x120\" />\n                </a>\n              </div>\n              <div class=\"col-sm-6 col-md-3\">\n                <a href=\"#\" class=\"thumbnail\">\n                  <img src=\"http://placehold.it/150x120\" />\n                </a>\n              </div>\n              <div class=\"col-sm-6 col-md-3\">\n                <a href=\"#\" class=\"thumbnail\">\n                  <img src=\"http://placehold.it/150x120\" />\n                </a>\n              </div>\n              <div class=\"col-sm-6 col-md-3\">\n                <a href=\"#\" class=\"thumbnail\">\n                  <img src=\"http://placehold.it/150x120\" />\n                </a>\n              </div>\n              <div class=\"col-sm-6 col-md-3\">\n                <a href=\"#\" class=\"thumbnail\">\n                  <img src=\"http://placehold.it/150x120\" />\n                </a>\n              </div>\n            </li>\n          </ul>\n        </li>\n        <li class=\"dropdown menu-large\">\n          <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">Categories <b class=\"caret\"></b></a>\n          <ul class=\"dropdown-menu megamenu row\">\n            <li class=\"col-sm-3\">\n              <ul>\n                <li class=\"dropdown-header\">Software</li>\n                <li><a href=\"#\">Desktop</a></li>\n                <li class=\"disabled\"><a href=\"#\">Mobile</a></li>\n                <li><a href=\"#\">Tablet</a></li>\n                <li class=\"divider\"></li>\n                <li class=\"dropdown-header\">Hardware</li>\n                <li><a href=\"#\">Arduino</a></li>\n                <li><a href=\"#\">Raspberry PI</a></li>\n                <li><a href=\"#\">VoCore</a></li>\n                <li><a href=\"#\">Banana PI</a></li>\n              </ul>\n            </li>\n            <li class=\"col-sm-3\">\n              <ul>\n                <li class=\"dropdown-header\">Nano-Tech</li>\n                <li><a href=\"#\">AFM</a></li>\n                <li><a href=\"#\">STM</a></li>\n                <li><a href=\"#\">Nano-Tubes</a></li>\n                <li><a href=\"#\">Nano-Wires</a></li>\n                <li><a href=\"#\">Materials</a></li>\n                <li class=\"divider\"></li>\n                <li class=\"dropdown-header\">A.I.</li>\n                <li><a href=\"#\">Artificial Intelligence</a></li>\n              </ul>\n            </li>\n            <li class=\"col-sm-3\">\n              <ul>\n                <li class=\"dropdown-header\">SaaS</li>\n                <li><a href=\"#\">On-Demand</a></li>\n                <li><a href=\"#\">No Software</a></li>\n                <li><a href=\"#\">Cloud Computing</a></li>\n                <li class=\"divider\"></li>\n                <li class=\"dropdown-header\">On-Premise</li>\n                <li><a href=\"#\">Data Center</a></li>\n                <li><a href=\"#\">Hosting Environment</a></li>\n                <li><a href=\"#\">Internal IT</a></li>\n              </ul>\n            </li>\n            <li class=\"col-sm-3\">\n              <ul>\n                <li class=\"dropdown-header\">Server-Side</li>\n                <li><a href=\"#\">PHP</a></li>\n                <li><a href=\"#\">Java</a></li>\n                <li><a href=\"#\">Python</a></li>\n                <li><a href=\"#\">Ruby</a></li>\n                <li><a href=\"#\">ColdFusion</a></li>\n                <li><a href=\"#\">ASP.NET</a></li>\n                <li><a href=\"#\">GO</a></li>\n                <li><a href=\"#\">Perl</a></li>\n                <li><a href=\"#\">Lasso</a></li>\n              </ul>\n            </li>\n          </ul>\n        </li>\n        <li class=\"dropdown menu-large\">\n          <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">Services <b class=\"caret\"></b></a>\n          <ul class=\"dropdown-menu megamenu row\">\n            <li class=\"col-sm-3\">\n              <ul>\n                <li class=\"dropdown-header\">Web Design</li>\n                <li><a href=\"#\">HTML5</a></li>\n                <li class=\"disabled\"><a href=\"#\">CSS</a></li>\n                <li><a href=\"#\">JavaScript</a></li>\n                <li class=\"divider\"></li>\n                <li class=\"dropdown-header\">Web Development</li>\n                <li><a href=\"#\">Websites</a></li>\n                <li><a href=\"#\">Mobile Apps</a></li>\n                <li><a href=\"#\">Responsive</a></li>\n                <li><a href=\"#\">Web Apps</a></li>\n              </ul>\n            </li>\n            <li class=\"col-sm-3\">\n              <ul>\n                <li class=\"dropdown-header\">Graphic Design</li>\n                <li><a href=\"#\">PSD</a></li>\n                <li><a href=\"#\">Images</a></li>\n                <li><a href=\"#\">Logos</a></li>\n                <li><a href=\"#\"></a></li>\n                <li><a href=\"#\">Vertical variation</a></li>\n                <li class=\"divider\"></li>\n                <li class=\"dropdown-header\">Database Design</li>\n                <li><a href=\"#\">Single button dropdowns</a></li>\n              </ul>\n            </li>\n            <li class=\"col-sm-3\">\n              <ul>\n                <li class=\"dropdown-header\">UI/UX Design</li>\n                <li><a href=\"#\">User Interface</a></li>\n                <li><a href=\"#\">User Experience</a></li>\n                <li><a href=\"#\">Web Designers</a></li>\n                <li class=\"divider\"></li>\n                <li class=\"dropdown-header\">Digital Marketing</li>\n                <li><a href=\"#\">Paid</a></li>\n                <li><a href=\"#\">Social</a></li>\n                <li><a href=\"#\">Content Marketing</a></li>\n              </ul>\n            </li>\n            <li class=\"col-sm-3\">\n              <ul>\n                <li class=\"dropdown-header\">Project Management</li>\n                <li><a href=\"#\">Initiating</a></li>\n                <li><a href=\"#\">Planning</a></li>\n                <li><a href=\"#\">Executing</a></li>\n                <li><a href=\"#\">Monitoring</a></li>\n                <li><a href=\"#\">Controlling</a></li>\n                <li><a href=\"#\">Closing</a></li>\n                <li><a href=\"#\">PM Systems</a></li>\n                <li><a href=\"#\">Best Practices</a></li>\n                <li><a href=\"#\">Project Manager</a></li>\n              </ul>\n            </li>\n          </ul>\n        </li>",
+			"settings":
+			{
+				"buffer_size": 7007,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "\t\t<div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n\t\t\t<ul class=\"navbar-nav mr-auto\">\n\t\t\t\t<li class=\"nav-item dropdown\">\n\t\t\t\t\t<a class=\"nav-link dropdown-toggle\" id=\"navbarBio\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">Биография</a>\n\t\t\t\t\t<div class=\"dropdown-menu\" aria-labelledby=\"navbarBio\">\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/bio/\">Основные даты Данченкова М.А.</a>\n\t\t\t\t\t\t<div class=\"dropdown-divider\"></div>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/bio/self\">Автобиография</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/bio/pension\">Есть ли жизнь на пенсии</a>\n\t\t\t\t\t\t<div class=\"dropdown-divider\"></div>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/relatives/parents\">Родители и предки</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/relatives/wife\">Жена</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/relatives/son\">Мой сын</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/relatives/second_wife\">Вторая жена</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/relatives/second_wife_son\">Сын второй жены</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/relatives/sister_niece\">Сестра и племянницы</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/relatives/almost\">Почти родственники</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/relatives/friends\">Друзья</a>\n\t\t\t\t\t</div>\n\t\t\t\t</li>\n\n\t\t\t\t<!-- <li class=\"nav-item dropdown\">\n\t\t\t\t\t<a class=\"nav-link dropdown-toggle\" id=\"navbarRelatives\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">Родственники</a>\n\t\t\t\t\t<div class=\"dropdown-menu\" aria-labelledby=\"navbarRelatives\">\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/relatives/\">Родственники</a>\n\t\t\t\t\t\t<div class=\"dropdown-divider\"></div>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/relatives/parents\">Родители и предки</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/relatives/wife\">Жена</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/relatives/son\">Мой сын</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/relatives/second_wife\">Вторая жена</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/relatives/second_wife_son\">Сын второй жены</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/relatives/sister_niece\">Сестра и племянницы</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/relatives/almost\">Почти родственники</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/relatives/friends\">Друзья</a>\n\t\t\t\t\t</div>\n\t\t\t\t</li> -->\n\n\t\t\t\t<li class=\"nav-item dropdown\">\n\t\t\t\t\t<a class=\"nav-link dropdown-toggle\" id=\"navbarBio\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">Организации</a>\n\t\t\t\t\t<div class=\"dropdown-menu\" aria-labelledby=\"navbarBio\">\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/organizations/\">Основное</a>\n\t\t\t\t\t\t<div class=\"dropdown-divider\"></div>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/schools\">Школы</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/schools/magadan-1-ucheniki\">Школа №1. Ученики</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/schools/magadan-1-uchitelya\">Школа №1. Учителя</a>\n\t\t\t\t\t\t<div class=\"dropdown-divider\"></div>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/organizations/dvgu\">ДВГУ</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/organizations/dvgu-memories\">ДВГУ. Воспоминания</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/organizations/dvgu-mates\">ДВГУ. Однокурсники</a>\n\t\t\t\t\t\t<div class=\"dropdown-divider\"></div>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/organizations/dvnigmi\">ДВНИГМИ</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/organizations/dvnigmi-memories\">ДВНИГМИ. Воспоминания</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/organizations/dvnigmi-personnel\">ДВНИГМИ. Состав</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/organizations/dvnigmi-efficiency\">ДВНИГМИ. Эффективность</a>\n\t\t\t\t\t\t<div class=\"dropdown-divider\"></div>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/organizations/toi\">ТОИ</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/organizations/toi-memories\">ТОИ. Воспоминания</a>\n\t\t\t\t\t</div>\n\t\t\t\t</li>\n\n\t\t\t\t<li class=\"nav-item dropdown\">\n\t\t\t\t\t<a class=\"nav-link dropdown-toggle\" id=\"navbarBio\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">Программы</a>\n\t\t\t\t\t<div class=\"dropdown-menu\" aria-labelledby=\"navbarBio\">\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/programs/\">Основное</a>\n\t\t\t\t\t\t<div class=\"dropdown-divider\"></div>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/programs/argo\">Арго</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/programs/japan_sea\">Японское море</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/programs/peter_the_great_gulf\">Океанография Залив Петра Великого</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/programs/zolotoi_rog\">Золотой рог</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/programs/strait_of_laperouse\">Пролив Лаперуза</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/programs/tumangan\">Туманган</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/programs/tartar_strait\">Татарский пролив</a>\n\t\t\t\t\t</div>\n\t\t\t\t</li>\n\n\t\t\t\t<li class=\"nav-item dropdown\">\n\t\t\t\t\t<a class=\"nav-link dropdown-toggle\" id=\"navbarResearch\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">Статьи</a>\n\t\t\t\t\t<div class=\"dropdown-menu\" aria-labelledby=\"navbarResearch\">\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/articles/\">Статьи и рукописи</a>\n\t\t\t\t\t\t<div class=\"dropdown-divider\"></div>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/articles/manuscripts\">Рукописи</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/articles/newspaper\">Газетные</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/articles/reviews\">Рецензии</a>\n\t\t\t\t\t\t<div class=\"dropdown-divider\"></div>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/articles/biographic\">Биографические</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/articles/biographic-gomoyunov\">Гомоюнов Константин Азарьевич</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/articles/biographic-biryulin\">Бирюлин Гавриил Михайлович</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/articles/biographic-maidel\">Майдель Эдуард Владимирович</a>\n\t\t\t\t\t</div>\n\t\t\t\t</li>\n\n\t\t\t\t<li class=\"nav-item dropdown\">\n\t\t\t\t\t<a class=\"nav-link dropdown-toggle\" id=\"navbarResearch\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">НИС</a>\n\t\t\t\t\t<div class=\"dropdown-menu\" aria-labelledby=\"navbarResearch\">\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/research/\">Исследовательские суда</a>\n\t\t\t\t\t\t<div class=\"dropdown-divider\"></div>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/research/introduction\">Введение</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/research/overview\">Обзор литературы</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/research/history\">История научного флота</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/research/projects\">Заводы и проекты</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/research/numbers\">Количество НИС</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/research/scientific_vessels\">Ведомственные суда</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/research/names\">Имена</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/research/dismissal\">Списание</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/research/list\">Список исследовательских судов</a>\n\t\t\t\t\t</div>\n\t\t\t\t</li>\n\n\t\t\t\t<li class=\"nav-item dropdown\">\n\t\t\t\t\t<a class=\"nav-link dropdown-toggle\" id=\"navbarResearch\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">Океанография</a>\n\t\t\t\t\t<div class=\"dropdown-menu\" aria-labelledby=\"navbarResearch\">\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/oceanography/\">Океанография и общество</a>\n\t\t\t\t\t\t<div class=\"dropdown-divider\"></div>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/oceanography/usefulness\">Польза науки о море. Имена</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/oceanography/far_east\">Океанография Дальнего Востока</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/oceanography/society\">Океанографическое Общество</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/oceanography/newspaper_articles\">Мои газетные статьи</a>\n\t\t\t\t\t</div>\n\t\t\t\t</li>\n\n\t\t\t\t<li class=\"nav-item dropdown\">\n\t\t\t\t\t<a class=\"nav-link dropdown-toggle\" id=\"navbarPhotos\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">Фотографии</a>\n\t\t\t\t\t<div class=\"dropdown-menu\" aria-labelledby=\"navbarPhotos\">\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/photos/\">Обзор</a>\n\t\t\t\t\t\t<div class=\"dropdown-divider\"></div>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/photos/personal\">Личные</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/photos/work\">На работе</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/photos/travel\">Из странствий</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"/photos/leshechka\">Мой Лёшечка</a>\n\t\t\t\t\t</div>\n\t\t\t\t</li>\n\t\t\t\t<!-- <li class=\"nav-item\">\n\t\t\t\t\t<a class=\"nav-link\" href=\"/news\" tabindex=\"-1\" aria-disabled=\"true\">Новости</a>\n\t\t\t\t</li> -->\n\t\t\t</ul>\n\t\t\t<form class=\"form-inline my-2 my-lg-0\">\n\t\t\t\t<!-- <script async src=\"https://cse.google.com/cse.js?cx=016195866236672480423:gtnza03akug\"></script>\n\t\t\t\t<div class=\"gcse-search\"></div> -->\n\t\t\t\t<input class=\"form-control mr-sm-2\" type=\"search\" placeholder=\"Поиск\" aria-label=\"Поиск\">\n\t\t\t\t<button class=\"btn btn-outline-success my-2 my-sm-0\" type=\"submit\">Поиск</button>\n\t\t\t</form>\n",
+			"settings":
+			{
+				"buffer_size": 8791,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "layouts/_default/home.html",
+			"settings":
+			{
+				"buffer_size": 146,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<div class=\"posts\">\n{{ range .Site.RegularPages -}}\n<article class=\"post\">\n  <h1 class=\"post-title\">\n    <a href=\"{{ .Permalink }}\">{{ .Title }}</a>\n  </h1>\n  <time datetime=\"{{ .Date.Format \"2006-01-02T15:04:05Z0700\" }}\" class=\"post-date\">{{ .Date.Format \"2006-01-02\" }}{{ partial \"tags.html\" .}}</time>\n  <p>\n  {{ .Summary }}\n  </p>\n  {{ if .Truncated }}\n  <div class=\"read-more-link\">\n    <a href=\"{{ .RelPermalink }}\">Read More <i class=\"fa fa-arrow-circle-down\" aria-hidden=\"true\"></i>\n</a>\n  </div>\n  {{ end }}\n</article>\n{{- end }}\n</div>",
+			"settings":
+			{
+				"buffer_size": 545,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "single.html\n\n\n\n{{ partial \"header.html\" . }}\n<body>\n\nafasdfasdfasdfasdfasdfasdfasdfasdf\n\nNAVNAVNAV-BEG\n{{ partial \"navbar.html\" . }}\nNAVNAVNAV-END\n\nCONTAINER\n<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col-md-9\">\n            <div class=\"well well-sm\">\n                    <h3>{{ .Title }}<br> <small>{{ .Description }}</small></h3>\n                    <hr>\n                    X{{ .Content }}Y\n            </div>\n        </div>\n\n        <!-- Sidebar -->\n        <div class=\"col-md-3\">\n            {{ partial \"menu.html\" . }}\n        </div>\n    </div>\n{{ partial \"footer.copyright.html\" . }}\n</div>\n\nFOOTER\n{{ partial \"footer.html\" . }}\n",
+			"settings":
+			{
+				"buffer_size": 658,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "{{ partial \"header.html\" . }}\n<body>\n\n    indexX\n\n{{ partial \"navbar.html\" . }}\n<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col-md-9\">\n        {{ range first 10 .Data.Pages }}\n            {{ .Render \"summary\" }}\n        {{ end }}\n        </div>\n\n        <!-- Sidebar -->\n        <div class=\"col-md-3\">\n        {{ partial \"menu.html\" . }}\n        </div>\n    </div>\n{{ partial \"footer.copyright.html\" . }}\n</div>\n{{ partial \"footer.html\" . }}\n",
+			"settings":
+			{
+				"buffer_size": 463,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "layouts/partials/header.html",
+			"settings":
+			{
+				"buffer_size": 528,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "layouts/partials/footer.html",
+			"settings":
+			{
+				"buffer_size": 1477,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "layouts/partials/footer.copyright.html",
+			"settings":
+			{
+				"buffer_size": 335,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<link href=\"//cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css\" rel=\"stylesheet\">\n<link href=\"//stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh\" crossorigin=\"anonymous\">\n<!-- <link href=\"//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i|Muli:300,300i,400,400i,600,600i,700,700i&display=swap&subset=cyrillic\"> -->\n<!-- <link href=\"//vjs.zencdn.net/7.5.4/video-js.min.css\"> -->\n{{ $sass := resources.Get \"/sass/main.scss\" }}\n{{ $style := $sass | resources.ToCSS }}\n <!-- | resources.Minify | resources.Fingerprint -->\n\n<link href=\"{{ $style }}\">",
+			"file": "layouts/partials/header.includes.html",
+			"file_size": 713,
+			"file_write_time": 132286438169542812,
+			"settings":
+			{
+				"buffer_size": 713,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!-- <link rel=\"stylesheet\" href=\"{{ $style.Permalink }}\"> -->",
+			"settings":
+			{
+				"buffer_size": 62,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "{{ $style := resources.Get \"scss/styles.scss\" | toCSS | minify | fingerprint }}\n<link rel=\"stylesheet\" href=\"{{ $style.Permalink }}\">\n\n{{ $style := resources.Get \"scss/styles.scss\" | toCSS | minify | fingerprint }}\n<link rel=\"stylesheet\" href=\"{{ $style.Permalink }}\">\n\n",
+			"settings":
+			{
+				"buffer_size": 270,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "{{ $main_options := (dict \"targetPath\" \"css/styles.css\" \"outputStyle\" \"compressed\" \"includePaths\" (slice \"assets/scss\")) -}}\n{{ $main_style = resources.Get \"scss/styles.scss\" | toCSS $main_options -}}\n<link rel=\"stylesheet\" href=\"{{ $main_style.RelPermalink }}\">\n",
+			"settings":
+			{
+				"buffer_size": 263,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "themes/basic/layouts/_default/baseof.html",
+			"settings":
+			{
+				"buffer_size": 250,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "themes/basic/theme.toml",
+			"settings":
+			{
+				"buffer_size": 31,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "content/oceanography/laperouse.md",
+			"settings":
+			{
+				"buffer_size": 86,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "content/oceanography/index.md",
+			"settings":
+			{
+				"buffer_size": 93,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: In",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 566.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/adanchenkov/Code/dmahg",
+		"/Users/adanchenkov/Code/dmahg/archetypes",
+		"/Users/adanchenkov/Code/dmahg/content",
+		"/Users/adanchenkov/Code/dmahg/content/oceanography",
+		"/Users/adanchenkov/Code/dmahg/data",
+		"/Users/adanchenkov/Code/dmahg/layouts",
+		"/Users/adanchenkov/Code/dmahg/layouts/_default",
+		"/Users/adanchenkov/Code/dmahg/layouts/partials",
+		"/Users/adanchenkov/Code/dmahg/layouts/tags",
+		"/Users/adanchenkov/Code/dmahg/resources",
+		"/Users/adanchenkov/Code/dmahg/resources/_gen",
+		"/Users/adanchenkov/Code/dmahg/resources/_gen/assets",
+		"/Users/adanchenkov/Code/dmahg/resources/_gen/assets/sass",
+		"/Users/adanchenkov/Code/dmahg/resources/_gen/images",
+		"/Users/adanchenkov/Code/dmahg/static",
+		"/Users/adanchenkov/Code/dmahg/themes",
+		"/Users/adanchenkov/Code/dmahg/themes/basic",
+		"/Users/adanchenkov/Code/dmahg/themes/basic/archetypes",
+		"/Users/adanchenkov/Code/dmahg/themes/basic/layouts",
+		"/Users/adanchenkov/Code/dmahg/themes/basic/layouts/_default"
+	],
+	"file_history":
+	[
+		"/Users/adanchenkov/Code/dma/docs/bio-pension.html",
+		"/Users/adanchenkov/Code/dmahg/resources/_gen/assets/sass/main.scss",
+		"/Users/adanchenkov/Downloads/lookup-order.md",
+		"/Users/adanchenkov/Downloads/homepage.md",
+		"/Users/adanchenkov/Downloads/layout.md",
+		"/Users/adanchenkov/Code/dmahg/content/oceanography/_index.md",
+		"/Users/adanchenkov/Code/dmahg/layouts/index.html",
+		"/Users/adanchenkov/Code/dmahg/layouts/partials/navbar.html",
+		"/Users/adanchenkov/Code/dmahg/layouts/partials/menu.html",
+		"/Users/adanchenkov/Code/dmahg/layouts/_default/single.html",
+		"/Users/adanchenkov/Code/dmahg/themes/basic/layouts/_default/single.html",
+		"/Users/adanchenkov/Code/dmahg/layouts/partials/meta.html",
+		"/Users/adanchenkov/Code/dmahg/dmahg.sublime-project",
+		"/Users/adanchenkov/Code/dmahg/themes/basic/layouts/_default/baseof.html",
+		"/Users/adanchenkov/Code/go/src/github.com/gohugoio/hugo/examples/multilingual/layouts/_default/single.html",
+		"/Users/adanchenkov/Code/go/src/github.com/gohugoio/hugo/examples/multilingual/layouts/_default/list.html",
+		"/Users/adanchenkov/Code/go/src/github.com/gohugoio/hugo/examples/multilingual/layouts/index.html",
+		"/Users/adanchenkov/Code/go/src/github.com/gohugoio/hugo/examples/blog/layouts/partials/header.html",
+		"/Users/adanchenkov/Code/go/src/github.com/gohugoio/hugo/examples/blog/layouts/index.html",
+		"/Users/adanchenkov/Code/go/src/github.com/gohugoio/hugo/examples/blog/layouts/_default/single.html",
+		"/Users/adanchenkov/Sites/scientology/src/site_www_scientology_org2/ideal_orgs_handler.go",
+		"/Users/adanchenkov/Sites/scientology/src/inetgit.staff.scientology.net/sites/data_orgs/orgs.xml",
+		"/Users/adanchenkov/Sites/scientology/src/site_www_scientology_org2/org_handler.go",
+		"/Users/adanchenkov/Sites/scientology/src/inetgit.staff.scientology.net/sites/data_videos/videos.xml",
+		"/Users/adanchenkov/Downloads/list.txt",
+		"/Users/adanchenkov/Downloads/x.txt",
+		"/Users/adanchenkov/Sites/scientology/x.txt",
+		"/Users/adanchenkov/Sites/scientology/src/google.golang.org/grpc/proxy.go",
+		"/Users/adanchenkov/Sites/whois/src/inetgit.staff.scientology.net/sites/data_orgs/orgs.xml",
+		"/Users/adanchenkov/Sites/scientology/src/inetgit.staff.scientology.net/sites/data_sites/data.go",
+		"/Users/adanchenkov/Sites/cms-workdir/repos/www.scientology.tv-editable/public/b3/92/b3d08349-920d-48f0-812b-5716000130c7.fm",
+		"/Users/adanchenkov/Sites/scientology/text/default/gcui_scientology_videos-008y-how-we-help-2019.xml",
+		"/Users/adanchenkov/Sites/scientology/data/scnvideos.xml",
+		"/Users/adanchenkov/Sites/scientology/data/scnvideo-categories.xml",
+		"/Users/adanchenkov/Sites/scientology/data/header-flyout-menus.xml",
+		"/Users/adanchenkov/Sites/scientology/includes/our-help-is-yours/slide1.html",
+		"/Users/adanchenkov/Sites/scientology/includes/our-help-is-yours/slide1-en-only.html",
+		"/Users/adanchenkov/Sites/scientology/data/slides.xml",
+		"/Users/adanchenkov/Sites/scientology/src/inetgit.staff.scientology.net/sites/data_orgs/_gcui_globaldata_static_cache.php",
+		"/Users/adanchenkov/Sites/scientology/src/inetgit.staff.scientology.net/sites/data_orgs/orgs_legacy.xml",
+		"/Users/adanchenkov/Documents/read4",
+		"/Users/adanchenkov/Sites/narconon/editable/narconon-suncoast/blog/implementing-changes-made-during-treatment_en_US.html",
+		"/Users/adanchenkov/Sites/narconon/editable/narconon-louisiana/blog/i-am-ecstatic-to-share-my-story_en_US.html",
+		"/Users/adanchenkov/Downloads/mass-list-by-orgs.md",
+		"/Users/adanchenkov/Sites/scientology/text/de/gcui_scientology_videos-000a-legacy.xml",
+		"/Users/adanchenkov/Sites/scientology/text/da/gcui_scientology_videos-000a-legacy.xml",
+		"/Users/adanchenkov/Sites/scientology/text/zh/gcui_scientology_videos-000a-legacy.xml",
+		"/Users/adanchenkov/Sites/scientology/text/sv/gcui_scientology_videos-000a-legacy.xml",
+		"/Users/adanchenkov/Sites/scientology/text/ru/gcui_scientology_videos-000a-legacy.xml",
+		"/Users/adanchenkov/Sites/scientology/text/pt/gcui_scientology_videos-000a-legacy.xml",
+		"/Users/adanchenkov/Sites/scientology/text/no/gcui_scientology_videos-000a-legacy.xml",
+		"/Users/adanchenkov/Sites/scientology/text/nl/gcui_scientology_videos-000a-legacy.xml",
+		"/Users/adanchenkov/Sites/scientology/text/ja/gcui_scientology_videos-000a-legacy.xml",
+		"/Users/adanchenkov/Sites/scientology/text/it/gcui_scientology_videos-000a-legacy.xml",
+		"/Users/adanchenkov/Sites/scientology/text/hu/gcui_scientology_videos-000a-legacy.xml",
+		"/Users/adanchenkov/Sites/scientology/text/he/gcui_scientology_videos-000a-legacy.xml",
+		"/Users/adanchenkov/Sites/scientology/text/fr/gcui_scientology_videos-000a-legacy.xml",
+		"/Users/adanchenkov/Sites/scientology/text/es_ES/gcui_scientology_videos-000a-legacy.xml",
+		"/Users/adanchenkov/Sites/scientology/text/es/gcui_scientology_videos-000a-legacy.xml",
+		"/Users/adanchenkov/Sites/scientology/text/el/gcui_scientology_videos-000a-legacy.xml",
+		"/Users/adanchenkov/Sites/scientology/text/default/gcui_scientology_videos-000a-legacy.xml",
+		"/Users/adanchenkov/Sites/scientology/text/default/gcui_scientology_videos-014-mas-shorts.xml",
+		"/Users/adanchenkov/Sites/scientology/src/site_www_scientology_org2/legacy.go",
+		"/Users/adanchenkov/Sites/scientology/src/site_www_scientology_org2/context-orgs.go",
+		"/Users/adanchenkov/Sites/scientology/text/default/gcui_scientology-169-ventura.xml",
+		"/Users/adanchenkov/Sites/scientology/new-orgs.sublime-workspace",
+		"/Users/adanchenkov/Sites/scientology/text/default/gcui_scientology-169-ventura-grand-opening.xml",
+		"/Users/adanchenkov/Sites/autoresponder/scli.yaml",
+		"/Users/adanchenkov/Downloads/gcui_scntv-012-4editable-vignettes.xml",
+		"/Users/adanchenkov/Downloads/comp.tsv",
+		"/Users/adanchenkov/Downloads/orgs.tsv",
+		"/Users/adanchenkov/Sites/scientology/src/inetgit.staff.scientology.net/sites/data_sites/domain.go",
+		"/Users/adanchenkov/Sites/scientology-webstack/config/orgs.yaml",
+		"/Users/adanchenkov/Downloads/gcui_scntv-012-2editable-vignettes.xml",
+		"/Users/adanchenkov/Downloads/gcui_scntv-012-3editable-vignettes.xml",
+		"/Users/adanchenkov/Downloads/gcui_scntv-013-1editable-vignettes.xml",
+		"/Users/adanchenkov/Downloads/gcui_scntv-013-2editable-vignettes.xml",
+		"/Users/adanchenkov/Downloads/gcui_scntv-013-3editable-vignettes.xml",
+		"/Users/adanchenkov/Downloads/gcui_scntv-013-4editable-vignettes.xml",
+		"/Users/adanchenkov/Downloads/gcui_scntv-014-1editable-vignettes.xml",
+		"/Users/adanchenkov/Downloads/gcui_scntv-014-2editable-vignettes.xml",
+		"/Users/adanchenkov/Downloads/gcui_scntv-014-3editable-vignettes.xml",
+		"/Users/adanchenkov/Downloads/gcui_scntv-014-4editable-vignettes.xml",
+		"/Users/adanchenkov/Downloads/gcui_scntv-014-5editable-vignettes.xml",
+		"/Users/adanchenkov/Downloads/gcui_scntv-012-1editable-vignettes.xml",
+		"/Users/adanchenkov/Downloads/gcui_scntv-012-editable-vignettes.xml",
+		"/Users/adanchenkov/Sites/scientology/src/site_www_scientology_org2/features.go",
+		"/Users/adanchenkov/Sites/scientology/includes/editable/editing-block.html",
+		"/Users/adanchenkov/Sites/scientology/views/videos/index.html",
+		"/Users/adanchenkov/Sites/scientology/web/theme/css/vidchannel/transform.css",
+		"/Users/adanchenkov/Sites/scientology/text/default/gcui_scientology_videos-000-legacy.xml",
+		"/Users/adanchenkov/Sites/scientology/text/default/gcui_scientology-078-text-ads.xml",
+		"/Users/adanchenkov/Sites/scientology/text/default/gcui_scientology_videos-006-video-channel.xml",
+		"/Users/adanchenkov/Sites/scientology/text/ru/gcui_scientology_videos-000-legacy.xml",
+		"/Volumes/videos/dm/subtitles/anita-machado-on-david-miscavige/update-7-feb/anita-machado-on-david-miscavige_he.vtt",
+		"/Volumes/videos/dm/subtitles/anita-machado-on-david-miscavige/anita-machado-on-david-miscavige_en.vtt",
+		"/Users/adanchenkov/Sites/scientology/text/default/gcui_scientology_videos-018-superbowl-ad.xml",
+		"/Users/adanchenkov/Sites/scientology/text/default/gcui_scientology_videos-016-superbowl-ad.xml",
+		"/Users/adanchenkov/Sites/cms-workdir/repos/www.scientology.tv-editable/draft/a5/29/a5a36862-29af-4acb-af72-56d96af3f6ff.fm",
+		"/Users/adanchenkov/Sites/cms-workdir/repos/www.scientology.tv-editable/public/a5/29/a5a36862-29af-4acb-af72-56d96af3f6ff.fm",
+		"/Users/adanchenkov/Sites/scientology/text/default/gcui_scientology-002-fot-IAS2012-2-DO-NOT-MODIFY.xml",
+		"/Users/adanchenkov/Sites/scientology/scientology.sublime-project",
+		"/Users/adanchenkov/Sites/scientology/src/site_www_scientology_org2/redirects.go",
+		"/Users/adanchenkov/Sites/scientology/data/activities/all-activities.xml",
+		"/Users/adanchenkov/Sites/microservices/data/all-activities.xml",
+		"/Users/adanchenkov/Sites/scientology/views/translation/scientology-url-list-videos.html",
+		"/Users/adanchenkov/Sites/scientology/includes/bs/header/l-ron-hubbard.html",
+		"/Users/adanchenkov/Sites/scientology/views/translation/isn48-survey.html",
+		"/Users/adanchenkov/Sites/scientology/text/default/gcui_scientology-101-org-names-Master-list.xml",
+		"/Users/adanchenkov/Sites/scientology/text/default/gcui_scientology-000-legacy.xml",
+		"/Users/adanchenkov/.cpanm/work/1579503584.59018/build.log",
+		"/Users/adanchenkov/.cpanm/work/1579503706.59964/build.log",
+		"/Users/adanchenkov/.cpanm/work/1579503821.61021/build.log",
+		"/Users/adanchenkov/Code/Module-Build-Tiny-0.039/INSTALL",
+		"/Users/adanchenkov/.zshrc",
+		"/Users/adanchenkov/Code/Module-Build-Tiny-0.039/lib/Module/Build/Tiny.pm",
+		"/Users/adanchenkov/Code/Module-Build-Tiny-0.039/Build.PL",
+		"/Users/adanchenkov/Code/module-build-tiny/lib/Module/Build/Tiny.pm",
+		"/Users/adanchenkov/Sites/courses-webstack/build.sh",
+		"/Users/adanchenkov/Sites/scientology/src/site_www_scientology_org2/{\"1x1\":\":FURL:imagecache:scalecrop-300x300-auto:bl",
+		"/Users/adanchenkov/Sites/scientology/src/inetgit.staff.scientology.net/sites/data_countries/text/default/gcui_scientology-000-legacy.xml",
+		"/Users/adanchenkov/Sites/scientology/views-gotako/orgs/msnchartwell/index.html",
+		"/Users/adanchenkov/Sites/scientology/views/theme/flash-video-channel/dxml/menus/video-channel.xml",
+		"/Users/adanchenkov/Sites/scientology/src/site_www_scientology_org2/server.go",
+		"/Users/adanchenkov/Sites/scientology/views/churches/upcoming-churches.html",
+		"/Users/adanchenkov/Sites/scientology/src/inetgit.staff.scientology.net/sites/data_orgs/data_orgs.go",
+		"/Users/adanchenkov/Sites/scientology/text/zh/gcui_scientology_videos-000-legacy.xml",
+		"/Users/adanchenkov/Sites/scientology/text/default/gcui_scientology_videos-017-mas-shorts-season-4.xml"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 116.0,
+		"where_history":
+		[
+			"<project>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			": ",
+			"com/ajax/libs/normalize/8.0.1/normalize.mi",
+			"---",
+			"formatting",
+			"formatting.",
+			"<meta name=\"google-site-verification\" content=\"_p0uSG1Qtl1ImzPI6iQaQz8f8_iARcJI59QmfOERYy4\" />",
+			"PREC",
+			"You should modify",
+			"emplate and include your own profile links",
+			"integrity: \"",
+			", crossorigin: \"anonymous\" %>",
+			"<%= javascript_include_tag "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 14,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "config.toml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 232,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								232,
+								232
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "layouts/_default/single.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 177,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								60,
+								60
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/User/syntax/XML-Template.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "layouts/partials/navbar.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2968,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1214,
+								1214
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/User/syntax/XML-Template.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 905,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								905,
+								905
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/User/syntax/XML-Template.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1608,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								676,
+								676
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"auto_name": "<nav class=\"navbar navbar-expand-lg navbar-light b",
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7007,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								1830
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/User/syntax/XML-Template.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8791,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8791,
+								8791
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "layouts/_default/home.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 146,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/User/syntax/XML-Template.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 545,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								77,
+								156
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/User/syntax/XML-Template.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 658,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								274,
+								416
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/User/syntax/XML-Template.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 463,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/User/syntax/XML-Template.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "layouts/partials/header.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 528,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								355,
+								355
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/User/syntax/XML-Template.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "layouts/partials/footer.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1477,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1468,
+								1461
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/User/syntax/XML-Template.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "layouts/partials/footer.copyright.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 335,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16,
+								16
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/User/syntax/XML-Template.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "layouts/partials/header.includes.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 713,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								713,
+								713
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/User/syntax/XML-Template.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 62,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								62,
+								62
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"syntax": "Packages/User/syntax/XML-Template.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 270,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								270,
+								270
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/User/syntax/XML-Template.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 263,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								263,
+								263
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"syntax": "Packages/User/syntax/XML-Template.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "themes/basic/layouts/_default/baseof.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 250,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								143,
+								143
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/User/syntax/XML-Template.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 20,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "themes/basic/theme.toml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 31,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 21,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "content/oceanography/laperouse.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 86,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10,
+								10
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/User/syntax/YAML-Template.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "content/oceanography/index.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 93,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.9o:///Users/adanchenkov/Sites/scientology/src/site_www_scientology_org2":
+	{
+		"height": 148.0
+	},
+	"output.GoSublime-main-output":
+	{
+		"height": 148.0
+	},
+	"output.GoSublime/HUD":
+	{
+		"height": 0.0
+	},
+	"output.GsDoc-output-output":
+	{
+		"height": 148.0
+	},
+	"output.SublimeLinter":
+	{
+		"height": 150.0
+	},
+	"output.exec":
+	{
+		"height": 144.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "dmahg.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"orgs.xml",
+				"src/inetgit.staff.scientology.net/sites/data_orgs/orgs.xml"
+			],
+			[
+				"sitesdata",
+				"src/inetgit.staff.scientology.net/sites/data_sites/data.go"
+			],
+			[
+				"proxy",
+				"src/google.golang.org/grpc/proxy.go"
+			],
+			[
+				"idealorgs",
+				"src/site_www_scientology_org2/ideal_orgs_handler.go"
+			],
+			[
+				"orgsgo",
+				"src/site_www_scientology_org2/context-orgs.go"
+			],
+			[
+				"169",
+				"text/default/gcui_scientology-169-ventura-grand-opening.xml"
+			],
+			[
+				"datasitesdat",
+				"src/inetgit.staff.scientology.net/sites/data_sites/data.go"
+			],
+			[
+				"cache",
+				"src/inetgit.staff.scientology.net/sites/data_orgs/_gcui_globaldata_static_cache.php"
+			],
+			[
+				"orgsleg",
+				"src/inetgit.staff.scientology.net/sites/data_orgs/orgs_legacy.xml"
+			],
+			[
+				"domain",
+				"src/inetgit.staff.scientology.net/sites/data_sites/domain.go"
+			],
+			[
+				"orgs",
+				"src/inetgit.staff.scientology.net/sites/data_orgs/orgs.xml"
+			],
+			[
+				"orgshandle",
+				"src/site_www_scientology_org2/ideal_orgs_handler.go"
+			],
+			[
+				"videos",
+				"src/inetgit.staff.scientology.net/sites/data_videos/videos.xml"
+			],
+			[
+				"features",
+				"src/site_www_scientology_org2/features.go"
+			],
+			[
+				"l-ron-",
+				"includes/bs/header/l-ron-hubbard.html"
+			],
+			[
+				"videos.xml",
+				"src/inetgit.staff.scientology.net/sites/data_videos/videos.xml"
+			],
+			[
+				"activi",
+				"data/activities/all-activities.xml"
+			],
+			[
+				"datasites",
+				"src/inetgit.staff.scientology.net/sites/data_sites/data.go"
+			],
+			[
+				"datasitesdata",
+				"src/inetgit.staff.scientology.net/sites/data_sites/data.go"
+			],
+			[
+				"redire",
+				"src/site_www_scientology_org2/redirects.go"
+			],
+			[
+				"orgsml",
+				"src/inetgit.staff.scientology.net/sites/data_orgs/orgs.xml"
+			],
+			[
+				"vents/pe-course/confirm.html",
+				"views-orgs/_default/events/pe-course/confirm.html"
+			],
+			[
+				"dataorgs",
+				"src/inetgit.staff.scientology.net/sites/data_orgs/orgs.xml"
+			],
+			[
+				"server",
+				"src/site_www_scientology_org2/server.go"
+			],
+			[
+				"orghandler",
+				"src/site_www_scientology_org2/org_handler.go"
+			],
+			[
+				"data",
+				"src/inetgit.staff.scientology.net/sites/data_sites/data.go"
+			],
+			[
+				"upcoming",
+				"views/churches/upcoming-churches.html"
+			],
+			[
+				"red",
+				"src/site_www_scientology_org2/redirects.go"
+			],
+			[
+				"slides",
+				"data/slides.xml"
+			],
+			[
+				"redirect",
+				"src/site_www_scientology_org2/redirects.go"
+			],
+			[
+				"conte",
+				"src/site_www_scientology_org2/context.go"
+			],
+			[
+				"intevent",
+				"src/site_www_scientology_org2/int_events.go"
+			],
+			[
+				"schedule",
+				"data/events/new-years-2015/schedule.xml"
+			],
+			[
+				"textdefault021",
+				"text/default/gcui_events-021-mv-2019-emails.xml"
+			],
+			[
+				"gcuievents",
+				"text/gcui_events-021-mv-2019-emails.xml"
+			],
+			[
+				"confirm",
+				"views-gotako/international-events/current/confirm.html"
+			],
+			[
+				"redirec",
+				"src/site_www_scientology_org2/redirects.go"
+			],
+			[
+				"org",
+				"src/site_www_scientology_org2/context-orgs.go"
+			],
+			[
+				"org_names_test",
+				"src/site_www_scientology_org2/org_names_test.go"
+			],
+			[
+				"contex",
+				"src/site_www_scientology_org2/context-funcmap.go"
+			],
+			[
+				"videosxml",
+				"src/inetgit.staff.scientology.net/sites/data_videos/videos.xml"
+			],
+			[
+				"direct",
+				"views-gotako/orgs/_default/directions.html"
+			],
+			[
+				"map",
+				"src/vendor/go.opencensus.io/tag/map.go"
+			],
+			[
+				"vide",
+				"src/inetgit.staff.scientology.net/sites/data_videos/videos.xml"
+			],
+			[
+				"context-orgs.go",
+				"src/site_www_scientology_org2/context-orgs.go"
+			],
+			[
+				"orghand",
+				"src/site_www_scientology_org2/org_handler.go"
+			],
+			[
+				"context",
+				"src/site_www_scientology_org2/context-orgs.go"
+			],
+			[
+				"menus",
+				"data/menus.xml"
+			],
+			[
+				"org.go",
+				"src/site_www_scientology_org2/org_handler.go"
+			],
+			[
+				"home-welcome.html",
+				"includes/bs/body/home-welcome.html"
+			],
+			[
+				"orgmoscow",
+				"views-orgs/moscow/inside-our-church/index.html"
+			],
+			[
+				"mosaic",
+				"views-gotako/expansion/org-mosaic.css"
+			],
+			[
+				"ru081",
+				"text/ru/gcui_scientology-081-bio-update.xml"
+			],
+			[
+				"default101a",
+				"text/default/gcui_scientology-101a-org-names-update.xml"
+			],
+			[
+				"101aorgnames",
+				"text/zh/gcui_scientology-101a-org-names-update.xml"
+			],
+			[
+				"orgnames",
+				"text/default/gcui_scientology-101a-org-names-update.xml"
+			],
+			[
+				"orgleg",
+				"src/inetgit.staff.scientology.net/sites/data_orgs/orgs_legacy.xml"
+			],
+			[
+				"churchesdetroit",
+				"editable/scientology-today/church-openings/grand-opening-detroit.html"
+			],
+			[
+				"idealor",
+				"includes/bs/body/ideal-org-video-overlay.html"
+			],
+			[
+				"grandpeningdetr",
+				"editable/scientology-today/church-openings/grand-opening-detroit.html"
+			],
+			[
+				"slides.xml",
+				"data/slides.xml"
+			],
+			[
+				"flyou",
+				"data/header-flyout-menus.xml"
+			],
+			[
+				"scnvideo",
+				"data/scnvideos.xml"
+			],
+			[
+				"/curious/",
+				"views/curious/index.html"
+			],
+			[
+				"feature",
+				"src/site_www_scientology_org2/features.go"
+			],
+			[
+				"flyout",
+				"data/header-flyout-menus.xml"
+			],
+			[
+				"orgs.go",
+				"src/site_www_scientology_org2/context-orgs.go"
+			],
+			[
+				"idealorgvide",
+				"includes/bs/body/ideal-org-video-overlay.html"
+			],
+			[
+				"scnvideos",
+				"data/scnvideos.xml"
+			],
+			[
+				"textru143",
+				"text/ru/gcui_scientology-143-detroit-grand-opening.xml"
+			],
+			[
+				"ru143",
+				"text/ru/gcui_scientology-143-detroit-grand-opening.xml"
+			],
+			[
+				"/default/gcui_scientology-143-detroit-grand-opening.xml",
+				"text/default/gcui_scientology-143-detroit-grand-opening.xml"
+			],
+			[
+				"text/default/gcui_scientology-143-orgsite-detroit.xml",
+				"text/default/gcui_scientology-143-orgsite-detroit.xml"
+			],
+			[
+				"maincss",
+				"web/theme/scrollmagic/plugins/debug.addIndicators.min.js"
+			],
+			[
+				"videocat",
+				"data/scnvideo-categories.xml"
+			],
+			[
+				"ru016-m",
+				"text/ru/gcui_scientology_videos-016a-mas-shorts-season-3.xml"
+			],
+			[
+				"orghandle",
+				"src/site_www_scientology_org2/org_handler.go"
+			],
+			[
+				"999a",
+				"text/default/gcui_scientology-999a-legacy-content-faq.xml"
+			],
+			[
+				"orgs.",
+				"src/inetgit.staff.scientology.net/sites/data_orgs/orgs.xml"
+			],
+			[
+				"999",
+				"text/default/gcui_scientology-999a-legacy-content-faq.xml"
+			],
+			[
+				"001a",
+				"text/default/gcui_scientology-001a-legacy-content-faq.xml"
+			],
+			[
+				"default051basel",
+				"text/default/gcui_scientology-051-basel.xml"
+			],
+			[
+				"051a",
+				"text/default/gcui_scientology-051a-basel.xml"
+			],
+			[
+				"translatehtml",
+				"views/translation/text-ads-tv.html"
+			],
+			[
+				"func.go",
+				"src/vendor/google.golang.org/grpc/internal/channelz/funcs.go"
+			],
+			[
+				"videosindex",
+				"views/videos/index.html"
+			],
+			[
+				"src/site_www_scientology_org2/context-orgs.go",
+				"src/site_www_scientology_org2/context-orgs.go"
+			],
+			[
+				"includes/left-sidebar-vly-tv-episode.html",
+				"includes/left-sidebar-vly-tv-episode.html"
+			],
+			[
+				"data/slides/valley-grand-opening.xml",
+				"data/slides/valley-grand-opening.xml"
+			],
+			[
+				"includes/left-sidebar-ldnd-tv-episode.html",
+				"includes/left-sidebar-ldnd-tv-episode.html"
+			],
+			[
+				"includes/left-sidebar-meld-tv-episode.html",
+				"includes/left-sidebar-meld-tv-episode.html"
+			],
+			[
+				"includes/left-sidebar-nyd-tv-episode.html",
+				"includes/left-sidebar-nyd-tv-episode.html"
+			],
+			[
+				"includes/left-sidebar-tpa-tv-episode.html",
+				"includes/left-sidebar-tpa-tv-episode.html"
+			],
+			[
+				"data/activities/all-activities.xml",
+				"data/activities/all-activities.xml"
+			],
+			[
+				"meta",
+				"includes/bs/meta.html"
+			],
+			[
+				"egory/beginning-audiobooks.html",
+				"views/store/category/beginning-audiobooks.html"
+			],
+			[
+				"s/roma/inside-our-church/index.html",
+				"views-orgs/roma/inside-our-church/index.html"
+			],
+			[
+				"/mil/inside-our-church/index.html",
+				"views-orgs/mil/inside-our-church/index.html"
+			],
+			[
+				"mil/inside-our-church/index.html",
+				"views-orgs/mil/inside-our-church/index.html"
+			],
+			[
+				"og-twitter-facebook-tags.html",
+				"includes/og-twitter-facebook-tags.html"
+			],
+			[
+				"default051",
+				"text/default/gcui_scientology-051-basel.xml"
+			],
+			[
+				"textdebasel",
+				"text/de/gcui_scientology-051-basel.xml"
+			],
+			[
+				"textbasel",
+				"text/default/gcui_scientology-051-basel.xml"
+			],
+			[
+				"sitemap.",
+				"src/site_www_scientology_org2/sitemap.go"
+			],
+			[
+				"sitemap",
+				"src/inetgit.staff.scientology.net/gocsi/attrs/sitemap-xml.go"
+			],
+			[
+				"faq/scientology-and-dianetics-books/how-can-one-improve-their-life-by-reading-a-book.html",
+				"views-gotako/faq/scientology-and-dianetics-books/how-can-one-improve-their-life-by-reading-a-book.html"
+			],
+			[
+				"y/books-on-film.html",
+				"views/store/category/books-on-film.html"
+			],
+			[
+				"ry/classics-lectures.html",
+				"views/store/category/classics-lectures.html"
+			],
+			[
+				"y/beginning-audiobooks.html",
+				"views/store/category/beginning-audiobooks.html"
+			],
+			[
+				"e/category/beginning-books.html",
+				"views/store/category/beginning-books.html"
+			],
+			[
+				"egory/beginning-books.html",
+				"views/store/category/beginning-books.html"
+			],
+			[
+				"/faq/the-organization-of-scientology/how-is-the-church-of-scientology-structured.html",
+				"views-gotako/faq/the-organization-of-scientology/how-is-the-church-of-scientology-structured.html"
+			],
+			[
+				"/inside-a-church-of-scientology/what-goes-scientology-church.html",
+				"views-gotako/faq/inside-a-church-of-scientology/what-goes-scientology-church.html"
+			],
+			[
+				"-principles/what-does-the-word-scientology-mean.html",
+				"views-gotako/faq/background-and-basic-principles/what-does-the-word-scientology-mean.html"
+			],
+			[
+				"howwehelpvolun",
+				"views-gotako/how-we-help/volunteer-ministers.html"
+			],
+			[
+				"faq",
+				"views-gotako/faq.html"
+			],
+			[
+				"inclubsmeta",
+				"includes/bs/meta.html"
+			],
+			[
+				"includes/bs/meta.html",
+				"includes/bs/meta.html"
+			],
+			[
+				"contactindex",
+				"views-orgs/_default/contact/index.html"
+			],
+			[
+				"contact",
+				"views-gotako/orgs/_default/contact.html"
+			],
+			[
+				"/inside-a-church-scientology.html",
+				"views-gotako/what-is-scientology/inside-a-church-scientology.html"
+			],
+			[
+				"the-scientology-creeds-and-codes.html",
+				"views-gotako/what-is-scientology/the-scientology-creeds-and-codes.html"
+			],
+			[
+				"lrhubbardindex",
+				"views/l-ron-hubbard/index.html"
+			],
+			[
+				"page.html",
+				"includes/page.html"
+			],
+			[
+				"whatis",
+				"views-gotako/faq/what-is-scientology.html"
+			],
+			[
+				"whatisscie",
+				"views-gotako/faq/what-is-scientology.html"
+			],
+			[
+				"scientolo",
+				"views-orgs/_default/scientology.html"
+			],
+			[
+				"cientology.html",
+				"views-orgs/_default/scientology.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 423.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

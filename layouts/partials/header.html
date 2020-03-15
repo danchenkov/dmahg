@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="ru" itemscope itemtype="http://schema.org/WebPage">
+<head>
+	{{ partial "meta.html" . }}
+	<title>{{ .Title }} - {{ .Site.BaseURL }}</title>
+	<link rel="canonical" href="{{ .Permalink }}">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="apple-touch-icon" href="icon.png">
+	{{ partial "header.includes.html" . }}
+	{{ with .OutputFormats.Get "RSS" -}}
+	{{ printf "<link href=%q rel=\"alternate\" type=%q title=%q />" .Permalink .MediaType $.Site.Title | safeHTML }}
+	{{- end }}
+</head>
+<body>
