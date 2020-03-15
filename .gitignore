@@ -1,0 +1,11 @@
+*.log
+*.sublime*
+*.sublime-*
+*.code-workspace
+.DS_Store
+
+/.vscode/
+/public
+/bin/*
+
+resources/_gen
