@@ -5,7 +5,6 @@
 .DS_Store
 
 /.vscode/
-/public
 /bin/*
 
 resources/_gen
