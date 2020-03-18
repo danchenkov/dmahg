@@ -2,7 +2,7 @@
 <html lang="ru" itemscope itemtype="http://schema.org/WebPage">
 <head>
 	{{ partial "meta.html" . }}
-	<title>{{ .Title | safeHTML }} - {{ .Site.BaseURL }}</title>
+	<title>{{ .Title | plainify }} - {{ .Site.BaseURL }}</title>
 	<link rel="canonical" href="{{ .Permalink }}">
 	<link rel="manifest" href="/site.webmanifest">
 	<link rel="apple-touch-icon" href="icon.png">
