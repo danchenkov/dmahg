@@ -1,6 +1,6 @@
-baseURL = "https://stupefied-murdock-8ad41e.netlify.com/"
+baseURL = "https://danchenkov-oceanography.ru/"
 languageCode = "ru-ru"
-title = "Данченков Михаил Алексеевич"
+title = "Данченков Михаил Алексеевич. Океанография Дальнего Востока"
 theme = ["hugo-search-fuse-js", "basic"]
 description = "Данченков Михаил Алексеевич (2.1.1950-)"
 googleAnalytics = "UA-157724393-1"
