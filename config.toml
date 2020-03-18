@@ -1,4 +1,4 @@
-baseURL = "https://danchenkov.live/"
+baseURL = "http://danchenkov.live/"
 languageCode = "ru-ru"
 title = "Данченков Михаил Алексеевич"
 theme = ["hugo-search-fuse-js", "basic"]
