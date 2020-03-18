@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home page on Данченков Михаил Алексеевич</title>
-    <link>http://danchenkov.live/</link>
+    <link>https://stupefied-murdock-8ad41e.netlify.com/</link>
     <description>Recent content in Home page on Данченков Михаил Алексеевич</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     
-	<atom:link href="http://danchenkov.live/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://stupefied-murdock-8ad41e.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Oceanography</title>
-      <link>http://danchenkov.live/oceanography/</link>
+      <link>https://stupefied-murdock-8ad41e.netlify.com/oceanography/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://danchenkov.live/oceanography/</guid>
+      <guid>https://stupefied-murdock-8ad41e.netlify.com/oceanography/</guid>
       <description>This page has bold and italics formatting. Yes.</description>
     </item>
     

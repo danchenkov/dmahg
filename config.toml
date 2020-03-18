@@ -1,4 +1,4 @@
-baseURL = "http://danchenkov.live/"
+baseURL = "https://stupefied-murdock-8ad41e.netlify.com/"
 languageCode = "ru-ru"
 title = "Данченков Михаил Алексеевич"
 theme = ["hugo-search-fuse-js", "basic"]
