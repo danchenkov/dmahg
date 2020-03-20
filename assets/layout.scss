@@ -1,0 +1,12 @@
+div.container {
+	header {
+		margin: 1em 0;
+
+	}
+	&.index header {
+		margin: 2em 0;
+	}
+	main {
+		padding: 1em 0;
+	}
+}

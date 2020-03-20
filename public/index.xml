@@ -1,22 +1,48 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home page on Данченков Михаил Алексеевич</title>
-    <link>https://stupefied-murdock-8ad41e.netlify.com/</link>
-    <description>Recent content in Home page on Данченков Михаил Алексеевич</description>
+    <title>Данченков Михаил Алексеевич, океанограф (2.1.1950 Сучан — Владивосток) on Данченков Михаил Алексеевич. Океанография Дальнего Востока</title>
+    <link>https://danchenkov-oceanography.ru/</link>
+    <description>Recent content in Данченков Михаил Алексеевич, океанограф (2.1.1950 Сучан — Владивосток) on Данченков Михаил Алексеевич. Океанография Дальнего Востока</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     
-	<atom:link href="https://stupefied-murdock-8ad41e.netlify.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://danchenkov-oceanography.ru/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Oceanography</title>
-      <link>https://stupefied-murdock-8ad41e.netlify.com/oceanography/</link>
+      <link>https://danchenkov-oceanography.ru/oceanography/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://stupefied-murdock-8ad41e.netlify.com/oceanography/</guid>
+      <guid>https://danchenkov-oceanography.ru/oceanography/</guid>
       <description>This page has bold and italics formatting. Yes.</description>
+    </item>
+    
+    <item>
+      <title>Биография</title>
+      <link>https://danchenkov-oceanography.ru/bio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danchenkov-oceanography.ru/bio/</guid>
+      <description>БИОГРАФИЯ  Школы: Тенькинская (Усть-Омчуг, 1957, 1961–1964), Ольская (1965), СШ-1 Магадана (1966-1967).
+Высшее образование: ДВГУ: Отд.океанологии (1967-1972).
+Работа: ТОИ ДВНЦ (1973–1993). Аспирантура (1973-1975). Диссертация — Течения Филиппинского моря (1988). ДВНИГМИ (1972-1973, 1993–2019).
+Организатор программ CREAMS (1993-2001) и ARGO (1999-2006 в РФ).
+   «Жизнь коротка, наука длинна…» Гиппократ.
+ Академик М.В.Ломоносов умер в 54 года, вице-адмирал С.О. Макаров - в 55, писатель В.К. Арсеньев - в 58, первый дальневосточный океанограф К.</description>
+    </item>
+    
+    <item>
+      <title>К.А. Гомоюнов. У истоков региональной океанографии</title>
+      <link>https://danchenkov-oceanography.ru/articles/gomoyunov/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danchenkov-oceanography.ru/articles/gomoyunov/</guid>
+      <description>Ученые Дальнего Востока
+К.А. Гомоюнов. У истоков региональной океанографии М.А. ДАНЧЕНКОВ, В.Б. ЛОБАНОВ, В.Е. СОКОЛОВА1
+Биография забытого сейчас, но в свое время очень авторитетного специалиста по региональной океанографии К.А. Гомоюнова. Он успешно работал во многих организациях в период их создания и развития (Государственный Дальневосточный университет, Владивостокское отделение Географического общества, Тихоокеанская научно-промысловая станция, Владивостокский технический Институт рыбной промышленности, Дальневосточный геофизический институт, Всесоюзный Арктический институт).
+Ключевые слова: Гомоюнов К.А., история океанографии, ДВГУ, Дальгеофизин, ААНИИ, зал.</description>
     </item>
     
   </channel>

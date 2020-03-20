@@ -3,11 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://stupefied-murdock-8ad41e.netlify.com/</loc>
+    <loc>https://danchenkov-oceanography.ru/articles/</loc>
   </url>
   
   <url>
-    <loc>https://stupefied-murdock-8ad41e.netlify.com/oceanography/</loc>
+    <loc>https://danchenkov-oceanography.ru/oceanography/</loc>
+  </url>
+  
+  <url>
+    <loc>https://danchenkov-oceanography.ru/bio/</loc>
+  </url>
+  
+  <url>
+    <loc>https://danchenkov-oceanography.ru/</loc>
+  </url>
+  
+  <url>
+    <loc>https://danchenkov-oceanography.ru/articles/gomoyunov/</loc>
   </url>
   
 </urlset>

@@ -1,11 +1,6 @@
 {{ partial "header.html" . }}
 {{ partial "navbar.html" . }}
-<div class="main container">
-	<header>
-		<h1 class="title">{{ .Title | safeHTML }}</h1>
-	</header>
-	<main>
-		{{ .Content }}
-	</main>
+<div class="index container">
+  {{ .Content }}
 </div>
 {{ partial "footer.html" . }}
