@@ -3,10 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://danchenkov-oceanography.ru/oceanography/laperouse/</loc>
-  </url>
-  
-  <url>
     <loc>https://danchenkov-oceanography.ru/bio/self/</loc>
   </url>
   
@@ -96,6 +92,11 @@
   
   <url>
     <loc>https://danchenkov-oceanography.ru/programs/</loc>
+  </url>
+  
+  <url>
+    <loc>https://danchenkov-oceanography.ru/search/</loc>
+    <priority>0.1</priority>
   </url>
   
   <url>

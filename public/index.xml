@@ -11,15 +11,6 @@
     
     
     <item>
-      <title>Laperouse page</title>
-      <link>https://danchenkov-oceanography.ru/oceanography/laperouse/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://danchenkov-oceanography.ru/oceanography/laperouse/</guid>
-      <description>This page has bold and italics formatting. LP.</description>
-    </item>
-    
-    <item>
       <title>Автобиография</title>
       <link>https://danchenkov-oceanography.ru/bio/self/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -202,6 +193,19 @@ www.shipspotting.com/
  Средняя и максимальная глубины — значения важные для любого моря. Они входят в официальные справочники и энциклопедии. После изобретения эхолота и столетия интенсивных промеров эти значения для большинства морей хорошо известны и меняются редко.
 Для Японского моря не устоялось не только название моря и его средняя глубина, но и максимальная глубина.
 Так, в лучшей советской энциклопедии (БСЭ-2, т.&amp;#8239;49, автор статьи- А.М.&amp;#8239;Муромцев), вышедшей в 1957 году, много позднее промерных экспедиций (третьей и семнадцатой) «Витязя», наибольшей глубиной моря названа 3742&amp;#8239;м.</description>
+    </item>
+    
+    <item>
+      <title>Результаты поиска</title>
+      <link>https://danchenkov-oceanography.ru/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danchenkov-oceanography.ru/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
     </item>
     
     <item>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru" itemscope itemtype="https://schema.org/WebPage">
+<head>
+		{{ partial "meta.html" . }}
+		<title>{{ .Title | plainify }} - {{ .Site.BaseURL }}</title>
+		<link rel="canonical" href="{{ .Permalink }}">
+		<link rel="manifest" href="/site.webmanifest">
+		<link rel="apple-touch-icon" href="icon.png">
+		{{ partial "header.includes.html" . }}
+		{{ with .OutputFormats.Get "RSS" -}}
+		{{ printf "<link href=%q rel=\"alternate\" type=%q title=%q />" .Permalink .MediaType $.Site.Title | safeHTML }}
+		{{- end }}
+	</head>
+	<body>
+		{{ partial "navbar.html" . }}
+
+		{{ block "main" . }}
+		{{ end }}
+
+		{{ partial "footer.copyright.html" . }}
+		{{ partial "footer.html" . }}
+		{{ block "footerfiles" . }}
+		{{ end }}
+	</body>
+</html>
