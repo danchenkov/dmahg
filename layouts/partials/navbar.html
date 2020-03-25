@@ -51,11 +51,14 @@
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" id="navbarBio" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Программы</a>
 					<div class="dropdown-menu" aria-labelledby="navbarBio">
-						<a class="dropdown-item" href="/programs/"><strong>Научные программы. Основное</strong></a>
-						<a class="dropdown-item disabled" href="javascript:void();">Арго</a>
+						<a class="dropdown-item" href="/programs/"><strong>Основное</strong></a>
 						<div class="dropdown-divider"></div>
-						<a class="dropdown-item" href="javascript:void();"><strong>Японское море</strong></a>
+						<a class="dropdown-item disabled" href="javascript:void();"><strong>Проект АРГО</strong></a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="javascript:void();"><strong>Океанография Японского моря</strong></a>
 						<a class="dropdown-item" href="/programs/japan-sea-maxumum-depth-problem">Проблема максимальной глубины</a>
+						<a class="dropdown-item disabled" href="/programs/strait_of_laperouse">Пролив Лаперуза</a>
+						<a class="dropdown-item disabled" href="/programs/tartar_strait">Татарский пролив</a>
 						<div class="dropdown-divider"></div>
 						<a class="dropdown-item" href="/programs/peter-the-great-bay-introduction"><strong>Океанография Залива Петра Великого</strong></a>
 						<a class="dropdown-item" href="/programs/peter-the-great-bay-introduction">Введение</a>
@@ -67,8 +70,6 @@
 						<a class="dropdown-item disabled" href="javascript:void();">Океанография района «Туманган»</a>
 						<a class="dropdown-item disabled" href="javascript:void();">Заключение</a>
 						<div class="dropdown-divider"></div>
-						<a class="dropdown-item disabled" href="/programs/strait_of_laperouse">Пролив Лаперуза</a>
-						<a class="dropdown-item disabled" href="/programs/tartar_strait">Татарский пролив</a>
 					</div>
 				</li>
 				<li class="nav-item dropdown">
@@ -144,8 +145,8 @@
 					<a class="nav-link disabled" href="#">Disabled</a>
 				</li> -->
 			</ul>
-			<form class="form-inline my-2 my-lg-0">
-				<input class="form-control mr-sm-2" type="search" placeholder="Поиск" aria-label="Поиск">
+			<form class="form-inline my-2 my-lg-0 search" action="{{ "search" | absURL }}">
+				<input class="form-control mr-sm-2" id="search-query" name="s" type="search" placeholder="Поиск" aria-label="Поиск" />
 				<!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Поиск</button> -->
 			</form>
 		</div>
