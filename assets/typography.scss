@@ -18,42 +18,44 @@ table {
 	margin: 0 auto;
 	position: relative;
 	font-family: sans-serif;
-}
-table thead {
-	background-color: #bbb;
-}
-table * {
-	position: relative;
-}
-table td, table th {
-	padding: 2px 8px 4px;
-	text-align: center;
-}
-table thead tr {
-	height: 4em;
-}
-table tbody tr {
-	height: 3.6em;
-}
-table tbody tr:last-child {
-	border: 0;
-}
-table th{
-	color: #fff;
-	line-height: 1.2;
-	font-weight: unset;
+	thead {
+		background: #959595;
+		background: -moz-linear-gradient(top,  hsla(0,0%,58%,1) 0%, hsla(0,0%,5%,1) 46%, hsla(0,0%,0%,1) 50%, hsla(0,0%,4%,1) 53%, hsla(0,0%,31%,1) 76%, hsla(0,0%,22%,1) 87%, hsla(0,0%,11%,1) 100%);
+		background: -webkit-linear-gradient(top,  hsla(0,0%,58%,1) 0%,hsla(0,0%,5%,1) 46%,hsla(0,0%,0%,1) 50%,hsla(0,0%,4%,1) 53%,hsla(0,0%,31%,1) 76%,hsla(0,0%,22%,1) 87%,hsla(0,0%,11%,1) 100%);
+		background: linear-gradient(to bottom,  hsla(0,0%,58%,1) 0%,hsla(0,0%,5%,1) 46%,hsla(0,0%,0%,1) 50%,hsla(0,0%,4%,1) 53%,hsla(0,0%,31%,1) 76%,hsla(0,0%,22%,1) 87%,hsla(0,0%,11%,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=0 );
+		border-top: 3px solid #000;
+		color: #fff;
+	}
+	* {
+		position: relative;
+	}
+	td, th {
+		padding: 2px 8px 4px;
+		text-align: center;
+	}
+	thead tr {
+		height: 2.5em;
+		font-weight: bold;
+	}
+	tbody tr {
+		height: 3.6em;
+		line-height: 1.2;
+		&:last-child {
+			border: 0;
+		}
+		&:nth-child(even) {
+			background-color: #f5f5f5;
+		}
+		&:hover {
+			color: #555555;
+			background-color: #f5f5f5;
+			cursor: pointer;
+		}
+	}
+	th{
+		line-height: 1.2;
+		font-weight: unset;
+	}
 }
 
-tbody tr:nth-child(even) {
-	background-color: #f5f5f5;
-}
-
-tbody tr {
-	font-size: 15px;
-	line-height: 1.2;
-}
-tbody tr:hover {
-	color: #555555;
-	background-color: #f5f5f5;
-	cursor: pointer;
-}
