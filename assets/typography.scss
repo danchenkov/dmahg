@@ -19,13 +19,13 @@ table {
 	position: relative;
 	font-family: sans-serif;
 	thead {
-		background: #959595;
-		background: -moz-linear-gradient(top,  hsla(0,0%,58%,1) 0%, hsla(0,0%,5%,1) 46%, hsla(0,0%,0%,1) 50%, hsla(0,0%,4%,1) 53%, hsla(0,0%,31%,1) 76%, hsla(0,0%,22%,1) 87%, hsla(0,0%,11%,1) 100%);
-		background: -webkit-linear-gradient(top,  hsla(0,0%,58%,1) 0%,hsla(0,0%,5%,1) 46%,hsla(0,0%,0%,1) 50%,hsla(0,0%,4%,1) 53%,hsla(0,0%,31%,1) 76%,hsla(0,0%,22%,1) 87%,hsla(0,0%,11%,1) 100%);
-		background: linear-gradient(to bottom,  hsla(0,0%,58%,1) 0%,hsla(0,0%,5%,1) 46%,hsla(0,0%,0%,1) 50%,hsla(0,0%,4%,1) 53%,hsla(0,0%,31%,1) 76%,hsla(0,0%,22%,1) 87%,hsla(0,0%,11%,1) 100%);
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=0 );
+		background: #b8b8b8;
+		background: -moz-linear-gradient(to bottom,  hsla(0,0%,72%,1) 0%,hsla(0,0%,80%,1) 10%,hsla(0,0%,98%,1) 70%,hsla(0,0%,49%,1) 100%);
+		background: -webkit-linear-gradient(to bottom,  hsla(0,0%,72%,1) 0%,hsla(0,0%,80%,1) 10%,hsla(0,0%,98%,1) 70%,hsla(0,0%,49%,1) 100%);
+		background: linear-gradient(to bottom,  hsla(0,0%,72%,1) 0%,hsla(0,0%,80%,1) 10%,hsla(0,0%,98%,1) 70%,hsla(0,0%,49%,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8b8b8', endColorstr='#7d7d7d',GradientType=0 );
 		border-top: 3px solid #000;
-		color: #fff;
+		color: #000;
 	}
 	* {
 		position: relative;
