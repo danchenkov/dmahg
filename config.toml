@@ -1,4 +1,6 @@
 baseURL = "https://danchenkov-oceanography.ru/"
+amp = true
+ampCdnRoot = "https://cdn.ampproject.org/"
 languageCode = "ru-ru"
 title = "Данченков Михаил Алексеевич. Океанография Дальнего Востока"
 theme = ["hugo-search-fuse-js", "basic"]
@@ -7,4 +9,4 @@ googleAnalytics = "UA-157724393-1"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 [outputs]
   home = ["HTML", "AMP", "RSS", "JSON"]
-  page = ["HTML"]
+  page = ["HTML", "AMP"]

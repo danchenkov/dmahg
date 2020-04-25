@@ -17,7 +17,16 @@
 
 
 
-<link rel="stylesheet" href="https://danchenkov-oceanography.ru/main.min.005eb19e10d7545ea046e150c9c02b84b41fba382d845e3ebf3dcf7766f21cb9.css">
+
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.20/datatables.min.css"/>
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://danchenkov-oceanography.ru/main.min.d0bb9e18827fe92b22f4b9b07ce1e0a970f51609ed7bff66c4146614ce80cec2.css">
 	<link href="https://danchenkov-oceanography.ru/bio/index.xml" rel="alternate" type="application/rss+xml" title="Данченков Михаил Алексеевич. Океанография Дальнего Востока" />
 </head>
 <body>
@@ -317,9 +326,44 @@
 <script>window.jQuery || document.write('<script src="/js/jquery-3.4.1.min.js"><\/script>')</script>
 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+
+
+
+<script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.10.20/sc-2.0.1/sp-1.0.1/datatables.min.js"></script>
+
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 
-<script>$(document).ready(function() {$(".dropdown-toggle").dropdown(); });</script>
+<script>
+$(document).ready(function() {
+	$(".dropdown-toggle").dropdown();
+});
+$(document).ready(function() {
+	$('#chalbukhan').DataTable({
+		searching: false,
+		ordering: true,
+		paginate: false,
+		info: false,
+        "language": {
+            "lengthMenu": "Показывать по _MENU_ на странице",
+            "zeroRecords": "Ничего на найдено",
+            "zeroRecords": "Записи отсутствуют.",
+			"emptyTable": "В таблице отсутствуют данные",
+			"paginate": {
+				"first": "Первая",
+				"previous": "Предыдущая",
+				"next": "Следующая",
+				"last": "Последняя"
+			},
+			"info": "Страница _PAGE_ из _PAGES_",
+            "infoEmpty": "Ничего не найдено",
+            "infoFiltered": "(выборка из _MAX_ строк)",
+            "search": "Поиск"
+        }
+    });
+});
+</script>
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157724393-1"></script>
 <script>
