@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://danchenkov-oceanography.ru/</loc>
+    <lastmod>2018-01-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://danchenkov-oceanography.ru/schools/</loc>
+    <lastmod>2018-01-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://danchenkov-oceanography.ru/schools/tshi/</loc>
+    <lastmod>2018-01-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://danchenkov-oceanography.ru/bio/self/</loc>
   </url>
   
@@ -20,10 +35,6 @@
   
   <url>
     <loc>https://danchenkov-oceanography.ru/misc/hunt/</loc>
-  </url>
-  
-  <url>
-    <loc>https://danchenkov-oceanography.ru/</loc>
   </url>
   
   <url>
@@ -64,10 +75,6 @@
   
   <url>
     <loc>https://danchenkov-oceanography.ru/schools/magadan-1-ucheniki/</loc>
-  </url>
-  
-  <url>
-    <loc>https://danchenkov-oceanography.ru/schools/</loc>
   </url>
   
   <url>
@@ -153,10 +160,6 @@
   
   <url>
     <loc>https://danchenkov-oceanography.ru/programs/peter-the-great-bay-temperature-and-salinity/</loc>
-  </url>
-  
-  <url>
-    <loc>https://danchenkov-oceanography.ru/schools/tshi/</loc>
   </url>
   
 </urlset>
