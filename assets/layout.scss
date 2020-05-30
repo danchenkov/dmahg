@@ -12,6 +12,21 @@ div.container {
 			&.left {
 				width: 40%;
 				margin-bottom: 1em;
+				&.half {
+					width: 50%;
+				}
+				&.sixty {
+					width: 60%;
+				}
+				&.fourty {
+					width: 40%;
+				}
+				&.narrow {
+					width: 28%;
+				}
+				&.small {
+					width: 36%;
+				}
 			}
 			&.right {
 				float: right;
@@ -37,3 +52,4 @@ aside.summary {
 	padding: 1.5em;
 
 }
+
