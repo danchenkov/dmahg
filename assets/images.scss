@@ -1,22 +1,46 @@
 figure {
 	&.right,
 	&.left {
-		width: 40%;
-		margin-bottom: 1em;
-		&.half {
-			width: 50%;
-		}
-		&.sixty {
-			width: 60%;
-		}
-		&.fourty {
+		@media (min-width: 541px) {
 			width: 40%;
 		}
+		margin-bottom: 1em;
+		&.half {
+			@media (min-width: 541px) {
+				width: 50%;
+			}
+		}
+		&.sixty {
+			@media (min-width: 541px) {
+				width: 60%;
+			}
+		}
+		&.fourty {
+			@media (max-width: 540px) {
+				width: 50%;
+			}
+			@media (min-width: 541px) and (max-width: 768px) {
+				width: 50%;
+			}
+			@media (min-width: 769px) {
+				width: 40%;
+			}
+		}
 		&.narrow {
-			width: 28%;
+			@media (max-width: 540px) {
+				width: 50%;
+			}
+			@media (min-width: 541px) {
+				width: 28%;
+			}
 		}
 		&.small {
-			width: 36%;
+			@media (max-width: 540px) {
+				width: 50%;
+			}
+			@media (min-width: 541px) {
+				width: 36%;
+			}
 		}
 	}
 	&.right {
