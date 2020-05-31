@@ -1,0 +1,62 @@
+figure {
+	&.right,
+	&.left {
+		@media (min-width: 541px) {
+			width: 40%;
+		}
+		margin-bottom: 1em;
+		&.half {
+			@media (min-width: 541px) {
+				width: 50%;
+			}
+		}
+		&.sixty {
+			@media (min-width: 541px) {
+				width: 60%;
+			}
+		}
+		&.fourty {
+			@media (max-width: 540px) {
+				width: 50%;
+			}
+			@media (min-width: 541px) and (max-width: 768px) {
+				width: 50%;
+			}
+			@media (min-width: 769px) {
+				width: 40%;
+			}
+		}
+		&.narrow {
+			@media (max-width: 540px) {
+				width: 50%;
+			}
+			@media (min-width: 541px) {
+				width: 28%;
+			}
+		}
+		&.small {
+			@media (max-width: 540px) {
+				width: 50%;
+			}
+			@media (min-width: 541px) {
+				width: 36%;
+			}
+		}
+	}
+	&.right {
+		float: right;
+		margin-left: 1em;
+	}
+	&.left {
+		float: left;
+		margin-right: 1em;
+	}
+	img {
+		width: 100%;
+	}
+}
+figcaption {
+	font-size: 0.9em;
+	font-weight: 600;
+	padding: 0.25rem 0.4rem;
+}
