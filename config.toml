@@ -8,8 +8,8 @@ description = "Данченков Михаил Алексеевич (2.1.1950-)"
 googleAnalytics = "UA-157724393-1"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 [outputs]
-	home = ["HTML", "AMP", "RSS", "JSON"]
-	page = ["HTML", "AMP"]
+	home = ["html", "amp", "rss", "json"]
+	page = ["html", "amp"]
 
 [module]
 	[[module.mounts]]
