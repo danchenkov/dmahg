@@ -34,6 +34,14 @@ figure {
 				width: 28%;
 			}
 		}
+		&.thin {
+			@media (max-width: 540px) {
+				width: 33%;
+			}
+			@media (min-width: 541px) {
+				width: 20%;
+			}
+		}
 		&.small {
 			@media (max-width: 540px) {
 				width: 50%;
