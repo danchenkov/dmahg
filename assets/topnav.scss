@@ -7,8 +7,11 @@
 			align-self: center;
 		}
 	}
-	a.dropdown-item.disabled,
-	a.dropdown-item:disabled {
-		color: hsla(208, 7%, 55%, 1);
-	}
+}
+a.dropdown-item.disabled,
+a.dropdown-item:disabled {
+	color: hsla(208, 7%, 55%, 1);
+}
+.dropdown-item.section {
+	font-weight: 700;
 }
