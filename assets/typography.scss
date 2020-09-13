@@ -28,6 +28,10 @@ table {
 	margin: 0 auto 2em;
 	position: relative;
 	font-family: sans-serif;
+	thead tr {
+		// background-color: hsla(0, 0%, 92%, 1);
+		border-bottom: 2px solid hsla(0, 0%, 30%, 1);;
+	}
 	// thead {
 	// 	background: #b8b8b8;
 	// 	background: -moz-linear-gradient(to bottom,  hsla(0,0%,75%,1) 0%,hsla(0,0%,82%,1) 10%,hsla(0,0%,92%,1) 72%,hsla(0,0%,80%,1) 100%);
@@ -39,6 +43,9 @@ table {
 	// }
 	* {
 		position: relative;
+	}
+	th {
+
 	}
 	td, th {
 		padding: 2px 8px 4px;
@@ -63,7 +70,7 @@ table {
 			cursor: pointer;
 		}
 	}
-	th{
+	th {
 		line-height: 1.2;
 		font-weight: unset;
 	}
