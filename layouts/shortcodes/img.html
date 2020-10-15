@@ -2,8 +2,8 @@
 {{ $size := .Get 1 }}
 {{ $caption := .Get 2 }}
 {{ $classes := .Get 3 }}
-{{ .Scratch.Set "image" ($original.Resize (printf "%dx" $size)) }}
-{{ .Scratch.Set "img2x" ($original.Resize (printf "%dx" (mul 2 $size))) }}
+{{ .Scratch.Set "image" ($original.Resize (printf "%dx" (int $size))) }}
+{{ .Scratch.Set "img2x" ($original.Resize (printf "%dx" (mul 2 (int $size)))) }}
 {{ $image := .Scratch.Get "image" }}
 {{ $img2x := .Scratch.Get "img2x" }}
 <figure class="{{ $classes }}">
