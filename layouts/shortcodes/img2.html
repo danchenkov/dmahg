@@ -1,0 +1,22 @@
+{{ $original1 := .Page.Resources.GetMatch (printf "%s" (.Get 0)) }}
+{{ $size1 := .Get 1 }}
+{{ $caption1 := .Get 2 }}
+{{ .Scratch.Set "image" ($original1.Resize (printf "%dx" $size1)) }}
+{{ .Scratch.Set "img2x" ($original1.Resize (printf "%dx" $size1)) }}
+{{ $image1 := .Scratch.Get "image" }}
+{{ $img2x1 := .Scratch.Get "img2x" }}
+
+{{ $original2 := .Page.Resources.GetMatch (printf "%s" (.Get 3)) }}
+{{ $size2 := .Get 4 }}
+{{ $caption2 := .Get 5 }}
+{{ .Scratch.Set "image" ($original2.Resize (printf "%dx" $size2)) }}
+{{ .Scratch.Set "img2x" ($original2.Resize (printf "%dx" $size2)) }}
+{{ $image2 := .Scratch.Get "image" }}
+{{ $img2x2 := .Scratch.Get "img2x" }}
+
+<figure style="display: flex; justify-content: center;">
+	<img style="max-width: 100%; width: auto; height: auto;" src="{{ $image1.RelPermalink }}" srcset="{{ $img2x1.RelPermalink }} 2x" width="{{ $image1.Width }}" height="{{ $image1.Height }}" alt="{{ $caption1 }}">
+	<figcaption>{{ $caption1 }}</figcaption>
+	<img style="max-width: 100%; width: auto; height: auto;" src="{{ $image2.RelPermalink }}" srcset="{{ $img2x2.RelPermalink }} 2x" width="{{ $image2.Width }}" height="{{ $image2.Height }}" alt="{{ $caption2 }}">
+	<figcaption>{{ $caption2 }}</figcaption>
+</figure>
