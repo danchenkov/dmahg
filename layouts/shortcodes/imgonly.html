@@ -1,0 +1,9 @@
+{{ $original := .Page.Resources.GetMatch (printf "%s" (.Get 0)) }}
+{{ $size := .Get 1 }}
+{{ $caption := .Get 2 }}
+{{ $classes := .Get 3 }}
+{{ .Scratch.Set "image" ($original.Resize (printf "%dx" (int $size))) }}
+{{ .Scratch.Set "img2x" ($original.Resize (printf "%dx" (mul 2 (int $size)))) }}
+{{ $image := .Scratch.Get "image" }}
+{{ $img2x := .Scratch.Get "img2x" }}
+	<img style="max-width: 100%; width: auto; height: auto;" src="{{ $image.RelPermalink }}" srcset="{{ $img2x.RelPermalink }} 2x" width="{{ div $image.Width 2 }}" height="{{ div $image.Height 2}}" alt="{{ $caption | safeHTML }}">
