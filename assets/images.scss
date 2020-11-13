@@ -65,7 +65,7 @@ figure {
 		margin-right: 1em;
 	}
 	img {
-		width: 100%;
+		margin: 0 auto;
 	}
 }
 figcaption {
@@ -77,8 +77,12 @@ figcaption {
 .in-groups-of {
 	display: flex;
 	justify-content: space-between;
+	margin-bottom: 2em;
+	figure {
+		margin-bottom: 0;
+	}
 	&.two {
-		>figure {
+		>* {
 			width: calc(50% - 1em);
 		}
 	}
