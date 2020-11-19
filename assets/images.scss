@@ -66,6 +66,7 @@ figure {
 	}
 	img {
 		width: 100%;
+		height: auto;
 		margin: 0 auto;
 	}
 }
@@ -83,7 +84,15 @@ figcaption {
 		margin-bottom: 0;
 	}
 	&.two {
-		grid-template-columns: repeat(auto-fit, minmax(452px, 1fr));
+		@media (min-width: 600px) {
+			grid-template-columns: repeat(2, 1fr);
+			&.special-001 {
+				grid-template-columns: 1fr 2.01fr;
+			}
+			&.special-002 {
+				grid-template-columns: 1fr 0.65fr;
+			}
+		}
 	}
 	&+figcaption {
 		margin-top: -1.5em;
