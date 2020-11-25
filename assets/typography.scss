@@ -35,7 +35,13 @@ blockquote {
   margin: 0 auto 2em;
 }
 .table--title {
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
+  font-size: 0.9375rem;
+  span{
+    font-weight: normal;
+    font-size: 0.875rem;
+  }
 }
 table {
   border-spacing: 1;
@@ -45,6 +51,7 @@ table {
   margin: 0 auto 2em;
   position: relative;
   font-family: sans-serif;
+  font-size: 0.875rem;
   thead tr {
     // background-color: hsla(0, 0%, 92%, 1);
     border-bottom: 2px solid hsla(0, 0%, 30%, 1);
