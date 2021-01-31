@@ -10,22 +10,27 @@ h6 {
 p,
 li {
     font-family: Merriweather, serif;
+    margin-bottom: 0.75em;
+    line-height: 1.5;
+    header & {
+        font-weight: 700;
+    }
 }
 h1 {
-    font-size: 2.2rem;
+    font-size: 2.2em;
 }
 h2 {
-    font-size: 1.8rem;
+    font-size: 1.8em;
 }
 h3 {
-    font-size: 1.4rem;
-    margin-top: 1.4em;
+    font-size: 1.4em;
+    margin-top: 1.4rem;
 }
 h4 {
-    font-size: 1.2rem;
+    font-size: 1.2em;
 }
 h5 {
-    font-size: 1rem;
+    font-size: 1em;
 }
 blockquote {
     font-style: italic;
@@ -36,7 +41,7 @@ blockquote {
 }
 .table--title {
     font-family: "Roboto", sans-serif;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 0.9375rem;
     span {
         font-weight: normal;
@@ -77,7 +82,7 @@ table {
     }
     thead tr {
         height: 2.5em;
-        font-weight: bold;
+        font-weight: 700;
     }
     tbody tr {
         height: 3.6em;
