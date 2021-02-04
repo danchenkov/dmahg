@@ -13,13 +13,13 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 	page = ["html", "amp"]
 
 [module]
-	[[module.mounts]]
-		source = "assets/images"
-		target = "static/images"
+#	[[module.mounts]]
+#		source = "assets/images"
+#		target = "static/images"
 
-	[[module.mounts]]
-		source = "assets/fonts"
-		target = "static/fonts"
+#	[[module.mounts]]
+#		source = "assets/fonts"
+#		target = "static/fonts"
 
 #	[[module.mounts]]
 #		source = "node_modules/bootstrap/dist/js/bootstrap.min.js"
