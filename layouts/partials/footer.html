@@ -30,12 +30,15 @@
 <!-- <script src="/js/swiper-bundle.min.js"></script> -->
 {{ $swiperbundlejs := resources.Get "vendor/swiper-bundle.min.js" }}
 
-{{ $vendorjs := slice $modernizr $jquery $bootstrapjs $datatablesjs $swiperbundlejs | resources.Concat "js/vendor.js" | resources.Minify }}
+{{ $vendorjs := slice $modernizr $jquery $bootstrapjs $swiperbundlejs | resources.Concat "js/vendor.js" | resources.Minify }}
 {{ $securevendorjs := $vendorjs | resources.Fingerprint "sha512" }}
 <script src="{{ $securevendorjs.Permalink }}"></script>
 
 {{ $securehighchartsjs := $highchartsjs | resources.Minify | resources.Fingerprint "sha512" }}
 <script src="{{ $securehighchartsjs.Permalink }}"></script>
+
+{{ $securedatatablesjs := $datatablesjs | resources.Fingerprint "sha512" }}
+<script src="{{ $securedatatablesjs.Permalink }}" integrity="{{ $securedatatablesjs.Data.Integrity }}" crossorigin="anonymous"></script>
 
 {{/*
 {{ $localjs := slice $localjs | resources.Concat "js/application.js" | resources.Minify }}
