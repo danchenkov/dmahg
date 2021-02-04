@@ -1,61 +1,81 @@
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" crossorigin="anonymous"></script> -->
 <!-- <script src="/js/modernizr.min.js"></script> -->
+{{/*
 {{ $modernizr := resources.Get "vendor/modernizr.min.js" }}
+{{ $securemodernizr := $modernizr | resources.Minify | resources.Fingerprint "sha512" }}
+<script src="{{ $securemodernizr.Permalink }}"></script>
+*/}}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" crossorigin="anonymous"></script>
 
-<!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script> -->
-<!-- <script>window.jQuery || document.write('<script src="/js/jquery-3.4.1.min.js"><\/script>')</script> -->
+
 <!-- <script src="/js/jquery-3.4.1.min.js"></script> -->
+{{/*
 {{ $jqueryjs := resources.Get "vendor/jquery-3.4.1.min.js" }}
+{{ $securejqueryjs := $jqueryjs | resources.Minify | resources.Fingerprint "sha512" }}
+<script src="{{ $securejqueryjs.Permalink }}"></script>
+*/}}
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="/js/jquery-3.4.1.min.js"><\/script>')</script>
+
 
 {{/* $popperjs := resources.Get "popperjs/umd/popper.min.js" */}}
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 
-<!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> -->
+
+{{/*
 <!-- <script src="/js/bootstrap.min.js"></script> -->
 {{ $bootstrapjs := resources.Get "vendor/bootstrap/dist/js/bootstrap.bundle.min.js" }}
+{{ $securebootstrapjs := $bootstrapjs | resources.Fingerprint "sha512" }}
+<script src="{{ $securebootstrapjs.Permalink }}"></script>
+*/}}
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-<!-- <script src="https://code.highcharts.com/highcharts.js"></script> -->
+
+{{/*
 <!-- <script src="/js/highcharts.js"></script> -->
 {{ $highchartsjs := resources.Get "vendor/highcharts.js" }}
+{{ $securehighchartsjs := $highchartsjs | resources.Minify | resources.Fingerprint "sha512" }}
+<script src="{{ $securehighchartsjs.Permalink }}"></script>
+*/}}
+<script src="https://code.highcharts.com/highcharts.js"></script>
 
+
+{{/*
+{{ $datatablesjs := resources.Get "vendor/datatables.min.js" }}
+{{ $securedatatablesjs := $datatablesjs | resources.Fingerprint "sha512" }}
+<script src="{{ $securedatatablesjs.Permalink }}"></script>
+*/}}
+<!-- <script type="text/javascript" src="/js/datatables.min.js"></script> -->
 <!-- <script src="https://cdn.datatables.net/v/bs4/jq-3.3.1/dt-1.10.20/af-2.3.4/b-1.6.1/b-html5-1.6.1/r-2.2.3/sp-1.0.1/sl-1.3.1/datatables.min.js"></script> -->
 <!-- <script src="https://cdn.datatables.net/v/bs4/jq-3.3.1/dt-1.10.20/cr-1.5.2/fh-3.1.6/r-2.2.3/sp-1.0.1/sl-1.3.1/datatables.min.js"></script> -->
 <!-- <script src="https://cdn.datatables.net/v/bs4/jq-3.3.1/dt-1.10.20/datatables.min.js"></script> -->
 <!-- <script src="https://cdn.datatables.net/v/bs4/jq-3.3.1/sp-1.0.1/datatables.min.js"></script> -->
 <!-- <script src="https://cdn.datatables.net/v/bs4/dt-1.10.20/fc-3.3.0/fh-3.1.6/r-2.2.3/sc-2.0.1/datatables.min.js"></script> -->
-<!-- <script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.10.20/sc-2.0.1/sp-1.0.1/datatables.min.js"></script> -->
-<!-- <script type="text/javascript" src="/js/datatables.min.js"></script> -->
 <!-- <script type="text/javascript" src="https://cdn.datatables.net/v/bs4/fh-3.1.6/r-2.2.3/datatables.min.js"></script> -->
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-{{ $datatablesjs := resources.Get "vendor/datatables.min.js" }}
+<script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.10.20/sc-2.0.1/sp-1.0.1/datatables.min.js"></script>
 
-<!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+
 <!-- <script src="/js/swiper-bundle.min.js"></script> -->
+{{/*
 {{ $swiperbundlejs := resources.Get "vendor/swiper-bundle.min.js" }}
+{{ $secureswiperjs := $swiperbundlejs | resources.Minify | resources.Fingerprint "sha512" }}
+<script src="{{ $secureswiperjs.Permalink }}"></script>
+*/}}
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-{{ $securemodernizr := $modernizr | resources.Minify | resources.Fingerprint "sha512" }}
-<script src="{{ $securemodernizr.Permalink }}"></script>
 
-{{ $securejqueryjs := $jqueryjs | resources.Minify | resources.Fingerprint "sha512" }}
-<script src="{{ $securejqueryjs.Permalink }}"></script>
-
+{{/*
 {{ $vendorjs := slice $bootstrapjs | resources.Concat "js/vendor.js" | resources.Minify }}
 {{ $securevendorjs := $vendorjs | resources.Fingerprint "sha512" }}
 <script src="{{ $securevendorjs.Permalink }}"></script>
+ */}}
 
-{{ $secureswiperjs := $swiperbundlejs | resources.Minify | resources.Fingerprint "sha512" }}
-<script src="{{ $secureswiperjs.Permalink }}"></script>
-
-{{ $securehighchartsjs := $highchartsjs | resources.Minify | resources.Fingerprint "sha512" }}
-<script src="{{ $securehighchartsjs.Permalink }}"></script>
-
-{{ $securedatatablesjs := $datatablesjs | resources.Fingerprint "sha512" }}
-<script src="{{ $securedatatablesjs.Permalink }}"></script>
 
 {{/*
 {{ $localjs := slice $localjs | resources.Concat "js/application.js" | resources.Minify }}
 {{ $securelocaljs := $localjs | resources.Fingerprint "sha512" }}
 <script src="{{ $securelocaljs.Permalink }}" integrity="{{ $securelocaljs.Data.Integrity }}" crossorigin="anonymous"></script>
 */}}
+
 
 <script>
 $(document).ready(function() {
