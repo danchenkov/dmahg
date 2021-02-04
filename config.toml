@@ -25,8 +25,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 #		source = "node_modules/bootstrap/dist/js/bootstrap.min.js"
 #		target = "assets/vendor/bootstrap/dist/js/bootstrap.min.js"
 
-[[headers]]
-  # Define which paths this specific [[headers]] block will cover.
-  for = "/*"
-    [headers.values]
-    Access-Control-Allow-Origin = "*"
+#	[[headers]]
+#	  # Define which paths this specific [[headers]] block will cover.
+#	  for = "/*"
+#	    [headers.values]
+#	    Access-Control-Allow-Origin = "*"
