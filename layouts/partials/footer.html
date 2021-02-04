@@ -37,9 +37,9 @@
 {{ $securehighchartsjs := $highchartsjs | resources.Minify | resources.Fingerprint "sha512" }}
 <script src="{{ $securehighchartsjs.Permalink }}" integrity="{{ $securehighchartsjs.Data.Integrity }}"></script>
 
-{{ $localjs := slice $localjs | resources.Concat "js/application.js" | resources.Minify }}
+{{/* $localjs := slice $localjs | resources.Concat "js/application.js" | resources.Minify }}
 {{ $securelocaljs := $localjs | resources.Fingerprint "sha512" }}
-<script src="{{ $securelocaljs.Permalink }}" integrity="{{ $securelocaljs.Data.Integrity }}"></script>
+<script src="{{ $securelocaljs.Permalink }}" integrity="{{ $securelocaljs.Data.Integrity }}"></script> */}}
 
 <script>
 $(document).ready(function() {
