@@ -34,7 +34,10 @@
 {{ $securevendorjs := $vendorjs | resources.Fingerprint "sha512" }}
 <script src="{{ $securevendorjs.Permalink }}" integrity="{{ $securevendorjs.Data.Integrity }}"></script>
 
-{{ $localjs := slice $highchartsjs | resources.Concat "js/highcharts.js" | resources.Minify }}
+{{ $securehighchartsjs := $highchartsjs | resources.Minify | resources.Fingerprint "sha512" }}
+<script src="{{ $securehighchartsjs.Permalink }}" integrity="{{ $securehighchartsjs.Data.Integrity }}"></script>
+
+{{ $localjs := slice $localjs | resources.Concat "js/application.js" | resources.Minify }}
 {{ $securelocaljs := $localjs | resources.Fingerprint "sha512" }}
 <script src="{{ $securelocaljs.Permalink }}" integrity="{{ $securelocaljs.Data.Integrity }}"></script>
 
