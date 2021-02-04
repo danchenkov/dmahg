@@ -17,6 +17,10 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 		source = "assets/images"
 		target = "static/images"
 
+	[[module.mounts]]
+		source = "assets/fonts"
+		target = "static/fonts"
+
 #	[[module.mounts]]
 #		source = "node_modules/bootstrap/dist/js/bootstrap.min.js"
 #		target = "assets/vendor/bootstrap/dist/js/bootstrap.min.js"
