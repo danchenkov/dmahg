@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta1",
+    "datatables.net": "^1.10.23",
+    "fuse.js": "^6.4.6",
+    "highcharts": "^9.0.0",
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "mark.js": "^8.11.1"
+  }
+}

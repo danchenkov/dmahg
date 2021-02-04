@@ -4,8 +4,10 @@
 *.code-workspace
 .DS_Store
 
-/.vscode/
-/bin/*
+/.vscode
+/bin
+
+node_modules
 
 resources/_gen
 temp

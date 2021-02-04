@@ -4,7 +4,7 @@
 	{{ partial "meta.html" . }}
 	<title>{{ .Title | plainify }} - {{ .Site.BaseURL }}</title>
 	<link rel="canonical" href="{{ .Permalink }}">
-	<link rel="manifest" href="/site.webmanifest">
+	<!-- <link rel="manifest" href="/site.webmanifest"> -->
 	<link rel="apple-touch-icon" href="icon.png">
 	{{ partial "header.includes.html" . }}
 	{{ with .OutputFormats.Get "RSS" -}}
@@ -19,7 +19,5 @@
 
 	{{ partial "footer.copyright.html" . }}
 	{{ partial "footer.html" . }}
-
-	{{ block "footerscripts" . }}{{ end }}
 </body>
 </html>

@@ -1,10 +1,15 @@
-<!-- <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> -->
-<link rel="stylesheet" href="/css/normalize.min.css">
+<!-- <link rel="stylesheet" href="/css/normalize.min.css"> -->
+{{ $normalizecss := resources.Get "vendor/normalize.min.css" | minify }}
+<!-- <link rel="stylesheet" href="{{ $normalizecss.Permalink }}"> -->
 
 <!-- <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
-<link rel="stylesheet" href="/css/bootstrap.min.css">
+<!-- <link rel="stylesheet" href="/css/bootstrap.min.css"> -->
+{{ $bootstrapcss := resources.Get "vendor/bootstrap.min.css" | minify }}
+<!-- <link rel="stylesheet" href="{{ $bootstrapcss.Permalink }}"> -->
 
-<link rel="stylesheet" href="/css/highcharts.min.css">
+<!-- <link rel="stylesheet" href="/css/highcharts.min.css"> -->
+{{ $highchartscss := resources.Get "vendor/highcharts.css" | minify }}
+<!-- <link rel="stylesheet" href="{{ $highchartscss.Permalink }}"> -->
 
 <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"> -->
 <!-- <link href="https://cdn.datatables.net/v/bs4/jq-3.3.1/dt-1.10.20/af-2.3.4/b-1.6.1/b-html5-1.6.1/r-2.2.3/sp-1.0.1/sl-1.3.1/datatables.min.css" rel="stylesheet" /> -->
@@ -12,16 +17,21 @@
 <!-- <link href="https://cdn.datatables.net/v/bs4/jq-3.3.1/sp-1.0.1/datatables.min.css" rel="stylesheet" /> -->
 <!-- <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/fh-3.1.6/r-2.2.3/datatables.min.css"/> -->
 <!-- <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.20/datatables.min.css"/> -->
-<link rel="stylesheet" type="text/css" href="/css/datatables.min.css"/>
+<!-- <link rel="stylesheet" type="text/css" href="/css/datatables.min.css"/> -->
+{{ $datatablescss := resources.Get "vendor/datatables.min.css" | minify }}
+<!-- <link rel="stylesheet" href="{{ $datatablescss.Permalink }}"> -->
 
 <!-- <link href="https://cdn.datatables.net/v/bs4/jq-3.3.1/dt-1.10.20/fh-3.1.6/r-2.2.3/sp-1.0.1/sl-1.3.1/datatables.min.css"/> -->
 <!-- <link type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.10.20/fc-3.3.0/fh-3.1.6/r-2.2.3/sc-2.0.1/datatables.min.css"/> -->
 
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&family=PT+Sans:wght@400;700&family=Roboto:ital,wght@0,400;0,500;1,400;1,500&display=swap&subset=cyrillic" rel="stylesheet">
+<!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&family=PT+Sans:wght@400;700&family=Roboto:ital,wght@0,400;0,500;1,400;1,500&display=swap&subset=cyrillic" rel="stylesheet"> -->
 <!-- <link href="//fonts.googleapis.com/css?Muli:300,300i,400,400i,600,600i,700,700i&display=swap&subset=cyrillic"> -->
 
 <!-- <link href="//vjs.zencdn.net/7.5.4/video-js.min.css"> -->
 
-{{ $style := resources.Get "main.scss" | toCSS | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $style.Permalink }}">
+{{ $localstyles := resources.Get "main.scss" | toCSS | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $localstyles.Permalink }}">
+
+{{ $vendorstyles := slice $normalizecss $bootstrapcss $highchartscss $datatablescss | resources.Concat "css/vendorstyles.css" | fingerprint }}
+<link rel="stylesheet" href="{{ $vendorstyles.Permalink }}" integrity="{{ $vendorstyles.Data.Integrity }}">
