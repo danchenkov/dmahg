@@ -7,9 +7,11 @@
 <!-- <script src="/js/jquery-3.4.1.min.js"></script> -->
 {{ $jqueryjs := resources.Get "vendor/jquery-3.4.1.min.js" }}
 
+{{/* $popperjs := resources.Get "popperjs/umd/popper.min.js" */}}
+
 <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> -->
 <!-- <script src="/js/bootstrap.min.js"></script> -->
-{{ $bootstrapjs := resources.Get "vendor/bootstrap/dist/js/bootstrap.min.js" }}
+{{ $bootstrapjs := resources.Get "vendor/bootstrap/dist/js/bootstrap.bundle.min.js" }}
 
 <!-- <script src="https://code.highcharts.com/highcharts.js"></script> -->
 <!-- <script src="/js/highcharts.js"></script> -->
@@ -23,19 +25,25 @@
 <!-- <script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.10.20/sc-2.0.1/sp-1.0.1/datatables.min.js"></script> -->
 <!-- <script type="text/javascript" src="/js/datatables.min.js"></script> -->
 <!-- <script type="text/javascript" src="https://cdn.datatables.net/v/bs4/fh-3.1.6/r-2.2.3/datatables.min.js"></script> -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 {{ $datatablesjs := resources.Get "vendor/datatables.min.js" }}
 
 <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
 <!-- <script src="/js/swiper-bundle.min.js"></script> -->
 {{ $swiperbundlejs := resources.Get "vendor/swiper-bundle.min.js" }}
 
+{{ $securemodernizr := $modernizr | resources.Minify | resources.Fingerprint "sha512" }}
+<script src="{{ $securemodernizr.Permalink }}"></script>
+
 {{ $securejqueryjs := $jqueryjs | resources.Minify | resources.Fingerprint "sha512" }}
 <script src="{{ $securejqueryjs.Permalink }}"></script>
 
-{{ $vendorjs := slice $modernizr $bootstrapjs $swiperbundlejs | resources.Concat "js/vendor.js" | resources.Minify }}
+{{ $vendorjs := slice $bootstrapjs | resources.Concat "js/vendor.js" | resources.Minify }}
 {{ $securevendorjs := $vendorjs | resources.Fingerprint "sha512" }}
 <script src="{{ $securevendorjs.Permalink }}"></script>
+
+{{ $secureswiperjs := $swiperbundlejs | resources.Minify | resources.Fingerprint "sha512" }}
+<script src="{{ $secureswiperjs.Permalink }}"></script>
 
 {{ $securehighchartsjs := $highchartsjs | resources.Minify | resources.Fingerprint "sha512" }}
 <script src="{{ $securehighchartsjs.Permalink }}"></script>

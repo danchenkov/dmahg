@@ -22,5 +22,9 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 #		target = "static/fonts"
 
 #	[[module.mounts]]
+#		source = "node_modules/@popperjs/core/dist"
+#		target = "assets/popperjs"
+
+#	[[module.mounts]]
 #		source = "node_modules/bootstrap/dist/js/bootstrap.min.js"
 #		target = "assets/vendor/bootstrap/dist/js/bootstrap.min.js"
