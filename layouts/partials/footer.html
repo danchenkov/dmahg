@@ -5,7 +5,7 @@
 <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script> -->
 <!-- <script>window.jQuery || document.write('<script src="/js/jquery-3.4.1.min.js"><\/script>')</script> -->
 <!-- <script src="/js/jquery-3.4.1.min.js"></script> -->
-{{ $jquery := resources.Get "vendor/jquery-3.4.1.min.js" }}
+{{ $jqueryjs := resources.Get "vendor/jquery-3.4.1.min.js" }}
 
 <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> -->
 <!-- <script src="/js/bootstrap.min.js"></script> -->
@@ -30,7 +30,10 @@
 <!-- <script src="/js/swiper-bundle.min.js"></script> -->
 {{ $swiperbundlejs := resources.Get "vendor/swiper-bundle.min.js" }}
 
-{{ $vendorjs := slice $modernizr $jquery $bootstrapjs $swiperbundlejs | resources.Concat "js/vendor.js" | resources.Minify }}
+{{ $securejqueryjs := $jqueryjs | resources.Minify | resources.Fingerprint "sha512" }}
+<script src="{{ $securejqueryjs.Permalink }}"></script>
+
+{{ $vendorjs := slice $modernizr $bootstrapjs $swiperbundlejs | resources.Concat "js/vendor.js" | resources.Minify }}
 {{ $securevendorjs := $vendorjs | resources.Fingerprint "sha512" }}
 <script src="{{ $securevendorjs.Permalink }}"></script>
 
@@ -38,7 +41,7 @@
 <script src="{{ $securehighchartsjs.Permalink }}"></script>
 
 {{ $securedatatablesjs := $datatablesjs | resources.Fingerprint "sha512" }}
-<script src="{{ $securedatatablesjs.Permalink }}" integrity="{{ $securedatatablesjs.Data.Integrity }}" crossorigin="anonymous"></script>
+<script src="{{ $securedatatablesjs.Permalink }}"></script>
 
 {{/*
 {{ $localjs := slice $localjs | resources.Concat "js/application.js" | resources.Minify }}
