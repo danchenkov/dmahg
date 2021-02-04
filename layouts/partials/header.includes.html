@@ -31,7 +31,7 @@
 <!-- <link href="//vjs.zencdn.net/7.5.4/video-js.min.css"> -->
 
 {{ $localstyles := resources.Get "main.scss" | toCSS | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $localstyles.Permalink }}" integrity="{{ $localstyles.Data.Integrity }}" crossorigin="anonymous">
+<link rel="stylesheet" href="{{ $localstyles.Permalink }}">
 
 {{ $vendorstyles := slice $normalizecss $bootstrapcss $highchartscss $datatablescss | resources.Concat "css/vendorstyles.css" | fingerprint }}
-<link rel="stylesheet" href="{{ $vendorstyles.Permalink }}" integrity="{{ $vendorstyles.Data.Integrity }}" crossorigin="anonymous">
+<link rel="stylesheet" href="{{ $vendorstyles.Permalink }}">
