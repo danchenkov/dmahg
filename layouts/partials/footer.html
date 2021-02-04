@@ -32,14 +32,16 @@
 
 {{ $vendorjs := slice $modernizr $jquery $bootstrapjs $datatablesjs $swiperbundlejs | resources.Concat "js/vendor.js" | resources.Minify }}
 {{ $securevendorjs := $vendorjs | resources.Fingerprint "sha512" }}
-<script src="{{ $securevendorjs.Permalink }}" integrity="{{ $securevendorjs.Data.Integrity }}"></script>
+<script src="{{ $securevendorjs.Permalink }}" integrity="{{ $securevendorjs.Data.Integrity }}" crossorigin="anonymous"></script>
 
 {{ $securehighchartsjs := $highchartsjs | resources.Minify | resources.Fingerprint "sha512" }}
-<script src="{{ $securehighchartsjs.Permalink }}" integrity="{{ $securehighchartsjs.Data.Integrity }}"></script>
+<script src="{{ $securehighchartsjs.Permalink }}" integrity="{{ $securehighchartsjs.Data.Integrity }}" crossorigin="anonymous"></script>
 
-{{/* $localjs := slice $localjs | resources.Concat "js/application.js" | resources.Minify }}
+{{/*
+{{ $localjs := slice $localjs | resources.Concat "js/application.js" | resources.Minify }}
 {{ $securelocaljs := $localjs | resources.Fingerprint "sha512" }}
-<script src="{{ $securelocaljs.Permalink }}" integrity="{{ $securelocaljs.Data.Integrity }}"></script> */}}
+<script src="{{ $securelocaljs.Permalink }}" integrity="{{ $securelocaljs.Data.Integrity }}" crossorigin="anonymous"></script>
+*/}}
 
 <script>
 $(document).ready(function() {
