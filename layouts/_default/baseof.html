@@ -6,7 +6,7 @@
 	<link rel="canonical" href="{{ .Permalink }}">
 	<!-- <link rel="manifest" href="/site.webmanifest"> -->
 	<link rel="apple-touch-icon" href="icon.png">
-	{{ partial "header.includes.html" . }}
+	{{ partial "links.html" . }}
 	{{ with .OutputFormats.Get "RSS" -}}
 	{{ printf "<link href=%q rel=\"alternate\" type=%q title=%q />" .Permalink .MediaType $.Site.Title | safeHTML }}
 	{{- end }}
@@ -14,10 +14,9 @@
 <body>
 	{{ partial "navbar.html" . }}
 
-	{{ block "main" . }}
-	{{ end }}
+	{{ block "main" . }}{{ end }}
 
-	{{ partial "footer.copyright.html" . }}
 	{{ partial "footer.html" . }}
+	{{ partial "scripts.html" . }}
 </body>
 </html>

@@ -16,11 +16,13 @@
 */}}
 
 
-{{ $highchartscss := resources.Get "vendor/highcharts/highcharts.css" | minify }}
-<link rel="stylesheet" href="{{ $highchartscss.Permalink }}">
+{{ if hasPrefix .RelPermalink "/research/numbers/" }}
+	{{ $highchartscss := resources.Get "vendor/highcharts/highcharts.css" | minify }}
+	<link rel="stylesheet" href="{{ $highchartscss.Permalink }}">
 {{/*
 <!-- <link rel="stylesheet" href="/css/highcharts.min.css"> -->
 */}}
+{{ end }}
 
 
 {{/*
@@ -56,3 +58,5 @@
 
 {{ $localstyles := resources.Get "scss/main.scss" | toCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $localstyles.Permalink }}">
+
+{{ block "styles" . }}{{ end }}
