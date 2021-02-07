@@ -1,6 +1,6 @@
-baseURL = "https://www.danchenkov-oceanography.ru/"
+baseURL = "https://www.danchenkov-oceanography.ru"
 amp = true
-ampCdnRoot = "https://cdn.ampproject.org/"
+ampCdnRoot = "https://cdn.ampproject.org"
 languageCode = "ru-ru"
 title = "Данченков Михаил Алексеевич. Океанография Дальнего Востока"
 theme = ["hugo-search-fuse-js", "basic"]
