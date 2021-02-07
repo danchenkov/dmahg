@@ -5,7 +5,7 @@
 	<title>{{ .Title | plainify }} - {{ .Site.BaseURL }}</title>
 	<link rel="canonical" href="{{ .Permalink }}">
 	<!-- <link rel="manifest" href="/site.webmanifest"> -->
-	<link rel="canonical" href="{{ config.baseURL }}{{ current_path }}">
+	<link rel="canonical" href="{{ .Site.BaseURL }}{{ current_path }}">
 	<link rel="apple-touch-icon" href="icon.png">
 	{{ partial "links.html" . }}
 	{{ with .OutputFormats.Get "RSS" -}}
