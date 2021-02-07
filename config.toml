@@ -1,4 +1,4 @@
-baseURL = "https://danchenkov-oceanography.ru/"
+baseURL = "https://www.danchenkov-oceanography.ru/"
 amp = true
 ampCdnRoot = "https://cdn.ampproject.org/"
 languageCode = "ru-ru"
