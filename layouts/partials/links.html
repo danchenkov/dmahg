@@ -17,7 +17,8 @@
 
 
 {{ if hasPrefix .RelPermalink "/research/numbers/" }}
-	{{ $highchartscss := resources.Get "vendor/highcharts/highcharts.css" | minify }}
+	{{ $options := (dict "targetPath" "css/vendor/highcharts.css" "outputStyle" "compressed" "enableSourceMap" true) }}
+	{{ $highchartscss := resources.Get "vendor/highcharts/highcharts.css" | toCSS $options | minify }}
 	<link rel="stylesheet" type="text/css" href="{{ $highchartscss.Permalink }}">
 {{/*
 <!-- <link rel="stylesheet" type="text/css" href="/css/highcharts.min.css"> -->
@@ -38,7 +39,8 @@
 <!-- <link href="https://cdn.datatables.net/v/bs4/jq-3.3.1/dt-1.10.20/fh-3.1.6/r-2.2.3/sp-1.0.1/sl-1.3.1/datatables.min.css"/> -->
 <!-- <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.10.20/fc-3.3.0/fh-3.1.6/r-2.2.3/sc-2.0.1/datatables.min.css"/> -->
 <!-- <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.20/datatables.min.css"/> -->
-{{ $datatablescss := resources.Get "vendor/datatables/datatables.min.css" | minify }}
+{{ $options := (dict "targetPath" "css/vendor/datatables.css" "outputStyle" "compressed" "enableSourceMap" true) }}
+{{ $datatablescss := resources.Get "vendor/datatables/datatables.min.css" | toCSS $options | minify }}
 <link rel="stylesheet" type="text/css" href="{{ $datatablescss.Permalink }}">
 
 
