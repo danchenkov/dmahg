@@ -2,33 +2,33 @@
     clear: both;
 }
 figure {
+    &.sixty {
+        @media (min-width: 541px) {
+            width: 60%;
+        }
+    }
+    &.half {
+        @media (min-width: 541px) {
+            width: 50%;
+        }
+    }
+    &.fourty {
+        @media (max-width: 540px) {
+            width: 50%;
+        }
+        @media (min-width: 541px) and (max-width: 768px) {
+            width: 50%;
+        }
+        @media (min-width: 769px) {
+            width: 40%;
+        }
+    }
     &.right,
     &.left {
         @media (min-width: 541px) {
             width: 40%;
         }
         margin-bottom: 1em;
-        &.half {
-            @media (min-width: 541px) {
-                width: 50%;
-            }
-        }
-        &.sixty {
-            @media (min-width: 541px) {
-                width: 60%;
-            }
-        }
-        &.fourty {
-            @media (max-width: 540px) {
-                width: 50%;
-            }
-            @media (min-width: 541px) and (max-width: 768px) {
-                width: 50%;
-            }
-            @media (min-width: 769px) {
-                width: 40%;
-            }
-        }
         &.narrow {
             @media (max-width: 540px) {
                 width: 50%;
