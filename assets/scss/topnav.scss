@@ -1,22 +1,32 @@
 nav.navbar {
-  a {
-    font-family: "PT Sans", sans-serif;
-  }
-}
-.navbar-brand {
-  display: flex;
-  > span {
-    display: inline-block;
-    &:last-of-type {
-      padding-left: 0.75em;
-      align-self: center;
+    a {
+        font-family: "PT Sans", sans-serif;
     }
-  }
 }
+
+.navbar-brand {
+    display: flex;
+
+    > span {
+        display: inline-block;
+
+        &:last-of-type {
+            padding-left: 0.75em;
+            align-self: center;
+        }
+    }
+}
+
 a.dropdown-item.disabled,
 a.dropdown-item:disabled {
-  color: hsla(208, 7%, 55%, 1);
+    color: hsla(208, 7%, 55%, 1);
 }
+
 .dropdown-item.section {
-  font-weight: 700;
+    font-weight: 700;
+}
+
+form.search {
+    position: relative;
+    top: -5px;
 }
