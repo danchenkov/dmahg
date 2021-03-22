@@ -24,6 +24,11 @@ a.dropdown-item:disabled {
 
 .dropdown-item.section {
     font-weight: 700;
+
+    &.blank {
+        pointer-events: none;
+        cursor: default;
+    }
 }
 
 form.search {
