@@ -2,6 +2,14 @@
     clear: both;
 }
 figure {
+    &.center {
+        margin: 0 auto;
+    }
+    &.seventy {
+        @media (min-width: 541px) {
+            width: 70%;
+        }
+    }
     &.sixty {
         @media (min-width: 541px) {
             width: 60%;
