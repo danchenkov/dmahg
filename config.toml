@@ -15,12 +15,12 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [module]
 	#	[[module.mounts]]
-	#		source = "assets/images"
-	#		target = "static/images"
-
-	#	[[module.mounts]]
 	#		source = "assets/fonts"
 	#		target = "static/fonts"
+
+[[module.mounts]]
+	source = "assets/images"
+	target = "static/images"
 
 	#	[[module.mounts]]
 	#		source = "node_modules/@popperjs/core/dist"
@@ -29,3 +29,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 	#	[[module.mounts]]
 	#		source = "node_modules/bootstrap/dist/js/bootstrap.min.js"
 	#		target = "assets/vendor/bootstrap/dist/js/bootstrap.min.js"
+
+[[module.mounts]]
+	source = "node_modules/normalize.css"
+	target = "assets/css/normalize.css"
