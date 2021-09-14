@@ -5,7 +5,11 @@
     "datatables.net": "^1.10.23",
     "fuse.js": "^6.4.6",
     "highcharts": "^9.0.0",
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-semantic-groups": "^1.1.1"
   },
   "devDependencies": {
     "mark.js": "^8.11.1"

@@ -1,0 +1,26 @@
+{
+    "extends": ["stylelint-config-standard"],
+    "rules": {
+        "at-rule-no-unknown": [
+            true,
+            {
+                "ignoreAtRules": [
+                    "extends",
+                    "ignores"
+                ]
+            }
+        ],
+        "color-hex-case": "lower",
+        "color-hex-length": "short",
+        "comment-whitespace-inside": "always",
+        "function-url-quotes": "never",
+        "indentation": 4,
+        "no-duplicate-selectors": true,
+        "number-leading-zero": null,
+        "selector-attribute-brackets-space-inside": "never",
+        "selector-attribute-operator-space-after": "never",
+        "selector-attribute-operator-space-before": "never",
+        "string-quotes": "single",
+        "unit-allowed-list": ["%","ch","deg","em","ms","px","rem","s","vh","vw"]
+    }
+}
