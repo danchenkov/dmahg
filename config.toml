@@ -8,23 +8,28 @@ timeout = 30000
 description = "Данченков Михаил Алексеевич (2.1.1950-)"
 googleAnalytics = "UA-157724393-1"
 disableKinds = ["taxonomy", "taxonomyTerm"]
+
 [outputs]
-	home = ["html", "amp", "rss", "json"]
-	page = ["html", "amp"]
+    home = ["html", "amp", "rss", "json"]
+    page = ["html", "amp"]
 
 [module]
-#	[[module.mounts]]
-#		source = "assets/images"
-#		target = "static/images"
+    # [[module.mounts]]
+    #     source = "assets/fonts"
+    #     target = "static/fonts"
 
-#	[[module.mounts]]
-#		source = "assets/fonts"
-#		target = "static/fonts"
+[[module.mounts]]
+    source = "assets/images"
+    target = "static/images"
 
-#	[[module.mounts]]
-#		source = "node_modules/@popperjs/core/dist"
-#		target = "assets/popperjs"
+[[module.mounts]]
+    source = "node_modules/jquery/dist"
+    target = "static/jquery"
 
-#	[[module.mounts]]
-#		source = "node_modules/bootstrap/dist/js/bootstrap.min.js"
-#		target = "assets/vendor/bootstrap/dist/js/bootstrap.min.js"
+    # [[module.mounts]]
+    #     source = "node_modules/@popperjs/core/dist"
+    #     target = "assets/popperjs"
+
+    # [[module.mounts]]
+    #     source = "node_modules/bootstrap/dist/js"
+    #     target = "assets/vendor/bootstrap"

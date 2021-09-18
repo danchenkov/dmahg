@@ -8,14 +8,19 @@
 
 
 <!-- <script src="/js/jquery-3.4.1.min.js"></script> -->
+{{/*  $jqueryjs := resources.Get "vendor/jquery/jquery.min.js" */}}
+{{/*  $securejqueryjs := $jqueryjs | resources.Minify | resources.Fingerprint "sha512" */}}
 {{/*
-{{ $jqueryjs := resources.Get "vendor/jquery-3.4.1.min.js" }}
-{{ $securejqueryjs := $jqueryjs | resources.Minify | resources.Fingerprint "sha512" }}
-<script src="{{ $securejqueryjs.Permalink }}"></script>
+<script type="module" src="/vendor/jquery/jquery.min.js"></script>
 */}}
-<!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script> -->
-<!-- <script>window.jQuery || document.write('<script src="/js/jquery-3.4.1.min.js"><\/script>')</script> -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="/jquery/jquery.min.js"><\/script>')</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.0/fuse.min.js" crossorigin="anonymous" defer></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" crossorigin="anonymous" defer></script>
 
 {{/* $popperjs := resources.Get "popperjs/umd/popper.min.js" */}}
 <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script> -->
@@ -31,8 +36,8 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script> -->
 
-<script src="https://code.highcharts.com/highcharts.js"></script>
 {{/*
+<script src="https://code.highcharts.com/highcharts.js"></script>
 {{ if hasPrefix .RelPermalink "/research/numbers/" }}
 {{ $highchartsjs := resources.Get "vendor/highcharts/highcharts.js" }}
 {{ $securehighchartsjs := $highchartsjs | resources.Minify | resources.Fingerprint "sha512" }}
@@ -42,10 +47,10 @@
 */}}
 
 
+{{/*
 {{ $datatablesjs := resources.Get "vendor/datatables/datatables.min.js" }}
 {{ $securedatatablesjs := $datatablesjs | resources.Fingerprint "sha512" }}
-<script src="{{ $securedatatablesjs.Permalink }}"></script>
-{{/*
+<script type="module" src="{{ $securedatatablesjs.Permalink }}"></script>
 <!-- <script type="text/javascript" src="/js/datatables.min.js"></script> -->
 <!-- <script src="https://cdn.datatables.net/v/bs4/jq-3.3.1/dt-1.10.20/af-2.3.4/b-1.6.1/b-html5-1.6.1/r-2.2.3/sp-1.0.1/sl-1.3.1/datatables.min.js"></script> -->
 <!-- <script src="https://cdn.datatables.net/v/bs4/jq-3.3.1/dt-1.10.20/cr-1.5.2/fh-3.1.6/r-2.2.3/sp-1.0.1/sl-1.3.1/datatables.min.js"></script> -->
@@ -62,8 +67,8 @@
 {{ $swiperbundlejs := resources.Get "vendor/swiper-bundle.min.js" }}
 {{ $secureswiperjs := $swiperbundlejs | resources.Minify | resources.Fingerprint "sha512" }}
 <script src="{{ $secureswiperjs.Permalink }}"></script>
-*/}}
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+*/}}
 
 
 {{/*
@@ -74,19 +79,15 @@
 
 
 {{/*
-{{ $localjs := slice $localjs | resources.Concat "js/application.js" | resources.Minify }}
-{{ $securelocaljs := $localjs | resources.Fingerprint "sha512" }}
-<script src="{{ $securelocaljs.Permalink }}" integrity="{{ $securelocaljs.Data.Integrity }}" crossorigin="anonymous"></script>
+{{ $localjs := slice $localjs | resources.Concat "js/main.js" | resources.Minify }}
+{{ $localjs := resources.Get "js/main.mjs" | js.Build "js/main.js" }}
 */}}
 
+{{ $localjs := resources.Get "js/search.js" | resources.Minify }}
+{{ $securelocaljs := $localjs | resources.Fingerprint "sha512" }}
+<script type="text/javascript" src="{{ $securelocaljs.Permalink }}" integrity="{{ $securelocaljs.Data.Integrity }}" crossorigin="anonymous" defer></script>
 
-<script>
-$(document).ready(function() {
-	$(".dropdown-toggle").dropdown();
-});
-</script>
-
-
+{{/*
 {{ if eq .RelPermalink "schools/tshi.html" }}
 <script>
 $(document).ready(function() {
@@ -185,4 +186,5 @@ Highcharts.chart('nis-numbers-pic1', {
 	ga('send', 'pageview')
 </script>
 
+*/}}
 <script src="https://www.google-analytics.com/analytics.js" async></script>
