@@ -1,32 +1,37 @@
 table.school.class10 {
-	th {
-		background-color: #ddd;
-		padding: 0 1em;
-	}
-	td {
-		padding: 0 1em;
-	}
+    th {
+        background-color: #ddd;
+        padding: 0 1em;
+    }
+
+    td {
+        padding: 0 1em;
+    }
 }
+
 table#chalbukhan {
-	td {
-		text-align: left;
-	}
+    td {
+        text-align: left;
+    }
 }
+
 table.bio-main-dates {
-	td:nth-child(2) {
-		text-align: left;
-	}
+    td:nth-child(2) {
+        text-align: left;
+    }
 }
 
 .chalbukhan {
-	display: flex;
-	align-items: flex-start;
-	justify-content: space-between;
-	flex-direction: column;
-	@media (min-width: 992px) {
-		flex-direction: row;
-		section {
-			width: calc(50% - 0.5em);
-		}
-	}
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+
+    @media (min-width: 992px) {
+        flex-direction: row;
+
+        section {
+            width: calc(50% - 0.5em);
+        }
+    }
 }

@@ -1,110 +1,136 @@
 .clearfix {
     clear: both;
 }
+
 figure {
     &.center {
         margin: 0 auto;
     }
+
     &.seventy {
         @media (min-width: 541px) {
             width: 70%;
         }
     }
+
     &.sixty {
         @media (min-width: 541px) {
             width: 60%;
         }
     }
+
     &.half {
         @media (min-width: 541px) {
             width: 50%;
         }
     }
+
     &.fourty {
         @media (max-width: 540px) {
             width: 50%;
         }
+
         @media (min-width: 541px) and (max-width: 768px) {
             width: 50%;
         }
+
         @media (min-width: 769px) {
             width: 40%;
         }
     }
+
     &.right,
     &.left {
         @media (min-width: 541px) {
             width: 40%;
         }
+
         margin-bottom: 1em;
+
         &.narrow {
             @media (max-width: 540px) {
                 width: 50%;
             }
+
             @media (min-width: 541px) {
                 width: 28%;
             }
         }
+
         &.thin {
             @media (max-width: 540px) {
                 width: 33%;
             }
+
             @media (min-width: 541px) {
                 width: 20%;
             }
         }
+
         &.small {
             @media (max-width: 540px) {
                 width: 50%;
             }
+
             @media (min-width: 541px) {
                 width: 36%;
             }
         }
     }
+
     &.right {
         float: right;
         clear: right;
         margin-left: 1em;
     }
+
     &.left {
         float: left;
         clear: left;
         margin-right: 1em;
     }
+
     img {
         width: 100%;
         height: auto;
         margin: 0 auto;
     }
 }
+
 figcaption {
     font-size: 0.9em;
     font-weight: 500;
     font-style: italic;
     padding: 0.25rem 0.4rem;
 }
+
 .in-groups-of {
     display: grid;
     grid-gap: 1em;
     margin-bottom: 1.5em;
+
     figure {
         margin-bottom: 0;
     }
+
     &.two {
         @media (min-width: 600px) {
             grid-template-columns: repeat(2, 1fr);
+
             &.special-001 {
                 grid-template-columns: 1fr 2.01fr;
             }
+
             &.special-002 {
                 grid-template-columns: 1fr 0.65fr;
             }
         }
+
         figcaption {
             grid-column: 1/3;
         }
     }
+
     & + figcaption {
         margin-top: -1.5em;
         margin-bottom: 1.5em;
