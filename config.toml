@@ -14,17 +14,30 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     page = ["html", "amp"]
 
 [module]
-    # [[module.mounts]]
-    #     source = "assets/fonts"
-    #     target = "static/fonts"
 
 [[module.mounts]]
     source = "assets/images"
     target = "static/images"
 
 [[module.mounts]]
+    source = "static"
+    target = "static"
+
+[[module.mounts]]
     source = "node_modules/jquery/dist"
     target = "static/jquery"
+
+[[module.mounts]]
+    source = "node_modules/bootstrap"
+    target = "static/bootstrap"
+
+[[module.mounts]]
+    source = "node_modules/fuse.js/dist"
+    target = "static/fuse.js"
+
+[[module.mounts]]
+    source = "node_modules/mark.js/dist"
+    target = "static/mark.js"
 
     # [[module.mounts]]
     #     source = "node_modules/@popperjs/core/dist"
