@@ -7,10 +7,6 @@
 /.vscode
 /bin
 
-**/node_modules
-# !node_modules/@popperjs/core/dist/
-# !node_modules/bootstrap/dist/
-
+node_modules
 resources/_gen
 temp
-/public
