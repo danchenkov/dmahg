@@ -21,7 +21,7 @@ if (searchQuery) {
     $('#search-results').append('<p>Введите слово или фразу</p>')
 }
 
-function executeSearch (searchQuery) {
+function executeSearch(searchQuery) {
     $.getJSON('/index.json', function (data) {
         const pages = data
         const fuse = new Fuse(pages, fuseOptions)
@@ -35,7 +35,7 @@ function executeSearch (searchQuery) {
     })
 }
 
-function populateResults (result) {
+function populateResults(result) {
     $.each(result, function (key, value) {
         const contents = value.item.contents
         let snippet = ''
@@ -72,13 +72,13 @@ function populateResults (result) {
     })
 }
 
-function param (name) {
+function param(name) {
     return decodeURIComponent((location.search.split(name + '=')[1] || '').split('&')[0]).replace(/\+/g, ' ')
 }
 
-function render (templateString, data) {
-    let conditionalMatches, conditionalPattern, copy
-    conditionalPattern = /\$\{\s*isset ([a-zA-Z]*) \s*\}(.*)\$\{\s*end\s*}/g
+function render(templateString, data) {
+    let conditionalMatches, copy
+    const conditionalPattern = /\$\{\s*isset ([a-zA-Z]*) \s*\}(.*)\$\{\s*end\s*}/g
     // since loop below depends on re.lastInxdex, we use a copy to capture any manipulations whilst inside the loop
     copy = templateString
     while ((conditionalMatches = conditionalPattern.exec(templateString)) !== null) {
