@@ -4,8 +4,8 @@
         "es2021": true
     },
     "extends": [
-        "standard",
         "eslint:recommended",
+        "google",
         "plugin:json/recommended-with-comments"
     ],
     "parser": "@typescript-eslint/parser",
