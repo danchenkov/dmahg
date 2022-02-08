@@ -71,6 +71,12 @@ table {
     font-family: sans-serif;
     font-size: 0.875rem;
 
+    p {
+        font-family: inherit;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
     thead tr {
         background-color: hsla(240, 20%, 92%, 1);
         border-bottom: 2px solid hsla(0, 0%, 30%, 1);
