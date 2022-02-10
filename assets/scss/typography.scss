@@ -94,6 +94,8 @@ table {
     //   position: relative;
     // }
     th {
+        font-weight: 600;
+        line-height: 1.2;
         padding: 4px;
         text-align: center;
 
@@ -135,11 +137,6 @@ table {
             background-color: #f5f5f5;
             cursor: pointer;
         }
-    }
-
-    th {
-        line-height: 1.2;
-        font-weight: unset;
     }
 
     &.ploughmen {
