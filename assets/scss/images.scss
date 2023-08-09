@@ -122,6 +122,10 @@ figcaption {
                 grid-template-columns: 1fr 1.175fr;
             }
 
+            &.surface-flows {
+                grid-template-columns: 1.25fr 1fr;
+            }
+
             &.special-001 {
                 grid-template-columns: 1fr 2.01fr;
             }
