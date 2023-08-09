@@ -118,6 +118,10 @@ figcaption {
         @media (min-width: 600px) {
             grid-template-columns: repeat(2, 1fr);
 
+            &.amur-bay {
+                grid-template-columns: 1fr 1.175fr;
+            }
+
             &.special-001 {
                 grid-template-columns: 1fr 2.01fr;
             }
