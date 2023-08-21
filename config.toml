@@ -4,10 +4,10 @@ ampCdnRoot = "https://cdn.ampproject.org"
 languageCode = "ru-ru"
 title = "Данченков Михаил Алексеевич. Океанография Дальнего Востока"
 theme = ["hugo-search-fuse-js", "basic"]
-timeout = 30000
+timeout = 60000
 description = "Данченков Михаил Алексеевич (2.1.1950-)"
 googleAnalytics = "UA-157724393-1"
-disableKinds = ["taxonomy"]
+disableKinds = ["taxonomy", "term"]
 
 [outputs]
     home = ["html", "amp", "rss", "json"]
