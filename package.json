@@ -24,5 +24,8 @@
     "stylelint-order": "^6.0.3",
     "stylelint-semantic-groups": "^1.2.0",
     "video.js": "^7.11.4"
+  },
+  "scripts": {
+    "cypress:open": "cypress open"
   }
 }
