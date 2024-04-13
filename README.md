@@ -1,5 +1,7 @@
-# dmahg
+# oceanography-danchenkov.ru
 
-Danchenkov M.A. site on Hugo
-oceanography-danchenkov.ru
-oceanology-danchenkov.ru
+Данченков М.А.
+Океанография Дальнего Востока: Японское море, Залив Петра Великого
+
+Danchenkov M.A.
+Far Eastern oceanography: Sea of Japan, Peter the Great Bay
