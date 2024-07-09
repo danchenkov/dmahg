@@ -1,31 +1,15 @@
 {
-  "dependencies": {
-    "@popperjs/core": "^2.6.0",
-    "bootstrap": "^5.1.1",
-    "datatables.net": "^1.10.23",
-    "fuse.js": "^6.4.6",
-    "highcharts": "^9.2.2",
-    "mark.js": "^8.11.1",
-    "normalize.css": "^8.0.1"
-  },
   "devDependencies": {
-    "@cypress/request": ">=3.0.0",
-    "@typescript-eslint/eslint-plugin": "^4.31.1",
-    "@typescript-eslint/parser": "^4.31.1",
-    "cypress": "^13.2.0",
     "eslint": "^7.32.0",
     "eslint-config-standard": "^16.0.3",
-    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-json": "^3.1.0",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^5.1.0",
-    "stylelint": "^15.10.2",
+    "eslint-plugin-promise": "^5.2.0",
+    "stylelint": "^15.11.0",
     "stylelint-config-standard": "^34.0.0",
-    "stylelint-order": "^6.0.3",
-    "stylelint-semantic-groups": "^1.2.0",
-    "video.js": "^7.11.4"
+    "stylelint-order": "^6.0.4",
+    "stylelint-semantic-groups": "^1.2.1"
   },
-  "scripts": {
-    "cypress:open": "cypress open"
-  }
+  "packageManager": "pnpm@9.4.0+sha512.f549b8a52c9d2b8536762f99c0722205efc5af913e77835dbccc3b0b0b2ca9e7dc8022b78062c17291c48e88749c70ce88eb5a74f1fa8c4bf5e18bb46c8bd83a"
 }

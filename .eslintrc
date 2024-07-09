@@ -7,7 +7,7 @@
         "eslint:recommended",
         "plugin:json/recommended-with-comments"
     ],
-    "parser": "@typescript-eslint/parser",
+    "parser": "",
     "parserOptions": {
         "ecmaVersion": 12,
         "sourceType": "module"
