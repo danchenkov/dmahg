@@ -5,8 +5,8 @@ const fuseOptions = {
     threshold: 0.0,
     tokenize: true,
     location: 0,
-    distance: 100,
-    maxPatternLength: 32,
+    distance: 400,
+    maxPatternLength: 64,
     minMatchCharLength: 1,
     keys: [
         { name: 'title', weight: 0.4 }, { name: 'contents', weight: 0.3 }, { name: 'tags', weight: 0.25 }, { name: 'categories', weight: 0.15 }
