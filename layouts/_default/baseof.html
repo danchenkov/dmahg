@@ -6,6 +6,7 @@
 	<link rel="manifest" href="/site.webmanifest">
 	<link rel="canonical" href="{{ .Permalink }}">
 	<link rel="apple-touch-icon" href="icon.png">
+	<meta name="last-updated" content="{{ now.Format "20060102T150405Z07:00"}}">
 	{{ partial "links.html" . }}
 	{{ with .OutputFormats.Get "RSS" -}}
 		{{ printf "<link href=%q rel=\"alternate\" type=%q title=%q />" .Permalink .MediaType $.Site.Title | safeHTML }}
