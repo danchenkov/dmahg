@@ -29,7 +29,7 @@
 [context.next.environment]
     HUGO_ENABLEGITINFO = "true"
 
-[[headers]]
+[headers]
   for = "/*"
   [headers.values]
     Access-Control-Allow-Origin = "https://danchenkov-oceanography.ru"
