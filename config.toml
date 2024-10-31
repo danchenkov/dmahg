@@ -4,7 +4,7 @@ ampCdnRoot = "https://cdn.ampproject.org"
 languageCode = "ru-ru"
 title = "Данченков Михаил Алексеевич. Океанография Дальнего Востока"
 theme = ["hugo-search-fuse-js", "basic"]
-timeout = 60000
+timeout = 90000
 description = "Данченков Михаил Алексеевич (2.1.1950-)"
 googleAnalytics = "UA-157724393-1"
 disableKinds = ["taxonomy", "term"]
@@ -18,27 +18,3 @@ disableKinds = ["taxonomy", "term"]
 [[module.mounts]]
     source = "static"
     target = "static"
-
-[[module.mounts]]
-    source = "node_modules/jquery/dist"
-    target = "static/jquery"
-
-[[module.mounts]]
-    source = "node_modules/bootstrap"
-    target = "static/bootstrap"
-
-[[module.mounts]]
-    source = "node_modules/fuse.js/dist"
-    target = "static/fuse.js"
-
-[[module.mounts]]
-    source = "node_modules/mark.js/dist"
-    target = "static/mark.js"
-
-    # [[module.mounts]]
-    #     source = "node_modules/@popperjs/core/dist"
-    #     target = "assets/popperjs"
-
-    # [[module.mounts]]
-    #     source = "node_modules/bootstrap/dist/js"
-    #     target = "assets/vendor/bootstrap"
