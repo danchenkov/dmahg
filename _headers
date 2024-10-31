@@ -1,6 +1,5 @@
 /*
   Access-Control-Allow-Origin: https://danchenkov-oceanography.ru
-  Access-Control-Allow-Origin: https://oceanography-danchenkov.ru
   Access-Control-Allow-Methods: GET, POST, OPTIONS
   Access-Control-Allow-Headers: Content-Type
   Vary: Origin
