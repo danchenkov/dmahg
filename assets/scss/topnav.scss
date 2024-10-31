@@ -1,6 +1,12 @@
 nav.navbar {
     a {
-        font-family: 'PT Sans', sans-serif;
+        font-family: "PT Sans", sans-serif;
+    }
+
+    .container-fluid {
+        @media (min-width: 1200px) {
+            max-width: 1366px;
+        }
     }
 }
 
