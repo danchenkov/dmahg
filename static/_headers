@@ -1,5 +1,8 @@
 /*
   Access-Control-Allow-Origin: https://danchenkov-oceanography.ru
+  Access-Control-Allow-Origin: http://localhost:1313
+  Access-Control-Allow-Origin: http://localhost:57323
+  Access-Control-Allow-Origin: http://localhost:51793
   Access-Control-Allow-Methods: GET, POST, OPTIONS
   Access-Control-Allow-Headers: Content-Type
   Vary: Origin
