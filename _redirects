@@ -1,0 +1,5 @@
+# Redirect default Netlify subdomain to primary domain
+https://stupefied-murdock-8ad41e.netlify.com/* https://oceanography-danchenkov.ru/:splat 301!
+https://www.oceanography-danchenkov.ru/* https://oceanography-danchenkov.ru/:splat 301!
+https://www.oceanology-danchenkov.ru/* https://oceanography-danchenkov.ru/:splat 301!
+https://oceanology-danchenkov.ru/* https://oceanography-danchenkov.ru/:splat 301!
