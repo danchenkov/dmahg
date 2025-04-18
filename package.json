@@ -1,7 +1,7 @@
 {
   "devDependencies": {
-    "@stylistic/stylelint-plugin": "^3.1.1",
-    "cypress": "^13.15.1",
+    "@stylistic/stylelint-plugin": "^3.1.2",
+    "cypress": "^13.17.0",
     "stylelint": "^15.11.0",
     "stylelint-config-standard": "^34.0.0",
     "stylelint-order": "^6.0.4",
@@ -11,5 +11,5 @@
     "cypress:open": "cypress open",
     "lint:css": "stylelint '**/*.css' --config-basedir ./node_modules"
   },
-  "packageManager": "pnpm@9.15.1+sha512.1acb565e6193efbebda772702950469150cf12bcc764262e7587e71d19dc98a423dff9536e57ea44c49bdf790ff694e83c27be5faa23d67e0c033b583be4bfcf"
+  "packageManager": "pnpm@9.15.9+sha512.68046141893c66fad01c079231128e9afb89ef87e2691d69e4d40eee228988295fd4682181bae55b58418c3a253bde65a505ec7c5f9403ece5cc3cd37dcf2531"
 }

@@ -3,6 +3,7 @@
 *.sublime-*
 *.code-workspace
 .DS_Store
+._.DS_Store
 
 /.vscode
 /bin
