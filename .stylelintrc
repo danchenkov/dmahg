@@ -1,7 +1,7 @@
 {
     "extends": [
         "stylelint-config-standard",
-        "stylelint-order",
+        "@stylistic/stylelint-plugin",
         "stylelint-semantic-groups"
     ],
     "rules": {
@@ -16,19 +16,12 @@
             }
         ],
         "block-no-empty": null,
-        "color-hex-case": "lower",
         "color-hex-length": "short",
         "comment-whitespace-inside": "always",
         "function-url-quotes": "never",
-        "indentation": 4,
         "no-duplicate-selectors": true,
-        "number-leading-zero": null,
-        "order/order": "selectorOrdering",
-        "order/properties-order": "propertyOrdering",
-        "selector-attribute-brackets-space-inside": "never",
-        "selector-attribute-operator-space-after": "never",
-        "selector-attribute-operator-space-before": "never",
-        "string-quotes": "single",
+        "stylistic/color-hex-case": "lower",
+        "stylistic/indentation": 4,
         "unit-allowed-list": [
             "%",
             "ch",
